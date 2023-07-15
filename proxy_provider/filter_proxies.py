@@ -1,4 +1,5 @@
 import yaml
+from itertools import cycle
 from urllib.parse import urlparse
 
 # Daftar host yang ingin ditambahkan pada entri server
@@ -9,6 +10,9 @@ additional_hosts = [
     "cdn.noice.id",
     "cdn.appsflyer.com"
 ]
+
+# Mengatur rotasi pada daftar host
+rotating_hosts = cycle(additional_hosts)
 
 with open('free-akun-id.yaml', 'r') as file:
     data = yaml.safe_load(file)
@@ -24,7 +28,8 @@ for proxy in proxies:
     ):
         url_parts = urlparse(proxy['server'])
         proxy['server'] = url_parts.netloc
-        proxy['server'] = f"{proxy['server']} {' '.join(additional_hosts)}"
+        rotating_host = next(rotating_hosts)
+        proxy['server'] = f"{proxy['server']} {rotating_host}"
         filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
