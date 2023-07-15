@@ -1,6 +1,6 @@
 proxies:
 - name: 🇮🇩ID-103.173.75.163-5336
-  server: ' sogood.linefriends.com'
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -14,7 +14,7 @@ proxies:
     headers:
       Host: zoom.us
 - name: 🇮🇩ID-147.139.160.130-6201
-  server: ' 104.17.3.81'
+  server: 104.18.3.2
   port: 80
   type: vmess
   uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
@@ -29,7 +29,7 @@ proxies:
     headers:
       Host: jpjoq.ftvpn.xyz
 - name: 🇮🇩ID-103.180.165.141-10038
-  server: ' quiz.vidio.com'
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 11255dd6-c36e-4bf9-ad5e-dfb228b09298
@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: id-rysa-put-ra18n19xz.live
 - name: 🇮🇩ID-103.173.75.163-10039
-  server: ' cdn.noice.id'
+  server: cdn.noice.id
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -57,7 +57,7 @@ proxies:
     headers:
       Host: id-lb.vhax.net
 - name: 🇮🇩ID-103.139.193.211-10040
-  server: ' cdn.appsflyer.com'
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 22ad3dff-66b4-4e69-b2db-bf43c4614761
