@@ -20,13 +20,13 @@ jobs:
         run: |
           echo "Downloading account list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o akun.txt
-          cat akun.txt
+          cat -s akun.txt
 
           echo "Filtering accounts..."
           sed -i '/websocket/!d' akun.txt
           sed -i '/trojan/!d' akun.txt
           sed -i '/vmess/!d' akun.txt
-          cat akun.txt
+          cat -s akun.txt
 
           echo "Selecting Indonesian accounts..."
           grep -Pzo "(?s)^.*🇮🇩.*$" akun.txt > free-akun-id.yaml
