@@ -5,9 +5,14 @@ proxies:
   network: ws
   port: 10000
   server: 45.12.80.138
+  servername: ''
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: false
   uuid: 3f7eede0-1a6e-11ee-a965-00163ef086d4
   ws-opts:
+    headers: {}
     path: /vpnjantit
 - alterId: 0
   cipher: auto
@@ -15,9 +20,15 @@ proxies:
   network: ws
   port: 80
   server: id-lb.vhax.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: false
   uuid: 6fea1649-425b-4092-bf53-29792152c925
   ws-opts:
+    headers:
+      Host: zoom.us
     path: /sshkit/Arsham85231/6347d08022b91/
 - alterId: 0
   cipher: auto
@@ -25,9 +36,15 @@ proxies:
   network: ws
   port: 80
   server: jpjoq.ftvpn.xyz
+  servername: jpjoq.ftvpn.xyz
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: false
   uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
   ws-opts:
+    headers:
+      Host: jpjoq.ftvpn.xyz
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -35,9 +52,15 @@ proxies:
   network: ws
   port: 80
   server: id-rysa-put-ra18n19xz.live
+  servername: ''
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: false
   uuid: 11255dd6-c36e-4bf9-ad5e-dfb228b09298
   ws-opts:
+    headers:
+      Host: id-rysa-put-ra18n19xz.live
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -45,9 +68,15 @@ proxies:
   network: ws
   port: 80
   server: id-lb.vhax.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: false
   uuid: 6fea1649-425b-4092-bf53-29792152c925
   ws-opts:
+    headers:
+      Host: id-lb.vhax.net
     path: /sshkit/Arsham85231/6347d08022b91/
 - alterId: 0
   cipher: auto
@@ -55,7 +84,13 @@ proxies:
   network: ws
   port: 80
   server: free-id.ajunstores.me
+  servername: ''
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: false
   uuid: 22ad3dff-66b4-4e69-b2db-bf43c4614761
   ws-opts:
+    headers:
+      Host: free-id.ajunstores.me
     path: /v2ray
