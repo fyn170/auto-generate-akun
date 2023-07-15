@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install requests library
-        run: python -m pip install requests
+      - name: Install PyYAML library
+        run: python -m pip install pyyaml
 
       - name: Proxy Providers
         working-directory: ./proxy_provider
@@ -33,29 +33,30 @@ jobs:
           echo "proxies:" > filtered_proxies.json
 
           python - <<EOF
-          import json
+          import yaml
 
           with open('akun.txt') as f:
-              proxies = f.readlines()
+              proxies = f.read()
+
+          proxy_data = yaml.safe_load(proxies)
 
           filtered_proxies = []
 
-          for proxy in proxies:
-              proxy_data = json.loads(proxy.strip())
-              proxy_type = proxy_data.get('type')
+          for proxy in proxy_data:
+              proxy_type = proxy.get('type')
 
               # Check if the proxy is vmess with websocket
-              if proxy_type == 'vmess' and proxy_data.get('network') == 'ws':
+              if proxy_type == 'vmess' and proxy.get('network') == 'ws':
                   filtered_proxy = {
-                      'name': proxy_data.get('name'),
-                      'server': proxy_data.get('server'),
-                      'port': proxy_data.get('port'),
+                      'name': proxy.get('name'),
+                      'server': proxy.get('server'),
+                      'port': proxy.get('port'),
                       'type': 'vmess',
                       'network': 'ws',
                       'ws-opts': {
-                          'path': proxy_data.get('ws-opts', {}).get('path'),
+                          'path': proxy.get('ws-opts', {}).get('path'),
                           'headers': {
-                              'Host': proxy_data.get('ws-opts', {}).get('headers', {}).get('Host')
+                              'Host': proxy.get('ws-opts', {}).get('headers', {}).get('Host')
                           }
                       }
                   }
@@ -64,18 +65,17 @@ jobs:
               # Check if the proxy is trojan with websocket
               if proxy_type == 'trojan':
                   filtered_proxy = {
-                      'name': proxy_data.get('name'),
-                      'server': proxy_data.get('server'),
-                      'port': proxy_data.get('port'),
+                      'name': proxy.get('name'),
+                      'server': proxy.get('server'),
+                      'port': proxy.get('port'),
                       'type': 'trojan',
-                      'password': proxy_data.get('password'),
-                      'skip-cert-verify': proxy_data.get('skip-cert-verify')
+                      'password': proxy.get('password'),
+                      'skip-cert-verify': proxy.get('skip-cert-verify')
                   }
                   filtered_proxies.append(filtered_proxy)
 
           with open('filtered_proxies.json', 'w') as f:
-              json.dump(filtered_proxies, f, indent=2)
-          EOF
+              yaml.dump(filtered_proxies, f, sort_keys=False)
 
           mv akun.txt free-akun-id.yaml
           sed -i '1i proxies:' free-akun-id.yaml
