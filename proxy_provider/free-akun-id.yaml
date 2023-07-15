@@ -1,2 +1,0 @@
-proxies:
-  - {'name': '🇮🇷IR-37.32.23.122-0869', 'server': '37.32.23.122', 'port': 443, 'type': 'vmess', 'uuid': 'd12bc882-43c7-415e-87c5-2a7fdc8371c0', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False, 'network': 'ws', 'ws-opts': {'path': '/websocket/'}}
