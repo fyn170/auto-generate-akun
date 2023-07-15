@@ -20,9 +20,21 @@ jobs:
         run: |
           echo "Downloading account list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o akun.txt
-          awk -F ',' '/vmess:|trojan:/{if ($0 ~ /websocket/) print}' akun.txt > filtered-akun.txt
-          grep -Pzo "(?s)^.*🇮🇩.*$" filtered-akun.txt > free-akun-id.yaml
+          cat akun.txt
+
+          echo "Filtering accounts..."
+          sed -i '/websocket/!d' akun.txt
+          sed -i '/trojan/!d' akun.txt
+          sed -i '/vmess/!d' akun.txt
+          cat akun.txt
+
+          echo "Selecting Indonesian accounts..."
+          grep -Pzo "(?s)^.*🇮🇩.*$" akun.txt > free-akun-id.yaml
+          cat free-akun-id.yaml
+
+          echo "Adding 'proxies:' header..."
           sed -i '1s/^/proxies:\n/' free-akun-id.yaml
+          cat free-akun-id.yaml
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
