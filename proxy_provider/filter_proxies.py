@@ -15,7 +15,7 @@ data['proxies'] = filtered_proxies
 with open('free-akun-id.yaml', 'w') as file:
     yaml.dump(data, file)
 
-with open('akun.txt', 'w') as file:
+with open('free-akun-id.yaml', 'w') as file:
     file.write("proxies:\n")
     for proxy in filtered_proxies:
         file.write(f"  - name: {proxy['name']}\n")
