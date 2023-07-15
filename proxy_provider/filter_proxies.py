@@ -6,9 +6,10 @@ with open('free-akun-id.yaml', 'r') as file:
 proxies = data.get('proxies', [])
 
 filtered_proxies = []
-for proxy in proxies:
-    if proxy.get('network') == 'ws':
-        filtered_proxies.append(proxy)
+for i, proxy in enumerate(proxies):
+    name = f"proxy{i+1}"
+    proxy['name'] = name
+    filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
 
