@@ -16,8 +16,7 @@ bug_servers = [
     'poe.garena.com'
 ]
 
-bug_servers_rotated = bug_servers[1:] + bug_servers[:1]
-bug_servers_iter = iter(bug_servers_rotated)
+random.shuffle(bug_servers)
 
 for file_name in files:
     with open(file_name, 'r') as file:
@@ -35,7 +34,7 @@ for file_name in files:
             host = url_parts.netloc.split(':')[0]
             random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
             proxy['name'] = f"\U0001F1EE\U0001F1E9 {random_name}"
-            proxy['server'] = next(bug_servers_iter)
+            proxy['server'] = bug_servers.pop(0)
             filtered_proxies.append(proxy)
 
     data['proxies'] = filtered_proxies
