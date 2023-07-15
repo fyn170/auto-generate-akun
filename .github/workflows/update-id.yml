@@ -24,7 +24,7 @@ jobs:
           mv akun.txt free-akun-id.yaml
           sed -i '1i proxies:' free-akun-id.yaml
 
-          python filter_proxies.py
+#          python filter_proxies.py
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
