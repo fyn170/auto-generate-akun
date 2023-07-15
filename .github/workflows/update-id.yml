@@ -16,7 +16,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Proxy Providers
-        working-directory: ./proxy_provider
         run: |
           echo "Downloading account list..."
           curl -s -L https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml > akun.txt
@@ -26,14 +25,25 @@ jobs:
           echo "Adding 'proxies:' header..."
           sed -i '1s/^/proxies:\n/' akun.txt
 
-      - name: Move File to Repository Directory
-        run: |
-          mkdir -p ${{ github.workspace }}/repository
-          mv ./proxy_provider/akun.txt ${{ github.workspace }}/repository/free-akun-id.yaml
-
       - name: Display File Contents
         run: |
           echo "Contents of free-akun-id.yaml:"
+          cat akun.txt
+
+      - name: Edit File in Root Directory
+        run: |
+          echo "Editing file in root directory..."
+          cp akun.txt ${{ github.workspace }}/free-akun-id.yaml
+
+      - name: Move File to Repository Directory
+        run: |
+          echo "Moving file to repository directory..."
+          mkdir -p ${{ github.workspace }}/repository
+          cp ${{ github.workspace }}/free-akun-id.yaml ${{ github.workspace }}/repository/
+
+      - name: Display File Contents in Repository Directory
+        run: |
+          echo "Contents of free-akun-id.yaml in repository directory:"
           cat ${{ github.workspace }}/repository/free-akun-id.yaml
 
       - name: Trigger Bot Update
