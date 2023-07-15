@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 hNoS71WA
-  server: quiz.vidio.com
+- name: 🇸🇬 dRzwbko1
+  server: 8.214.33.158
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 O6hvWTyz
-  server: zendesk1.grab.com
+- name: 🇸🇬 l0aXV5Ex
+  server: 8fhq6a.aiossh.my.id
   port: 80
   type: vmess
   uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
@@ -27,8 +27,8 @@ proxies:
     path: /v2ray
     headers:
       Host: 8fhq6a.aiossh.my.id
-- name: 🇸🇬 oK4VhSaa
-  server: cdn.appsflyer.com
+- name: 🇸🇬 vHSukm6u
+  server: sg-lb.vhax.net
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,8 +41,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 WpzeKh3I
-  server: www.noice.id
+- name: 🇸🇬 J0Uwt2Tp
+  server: sg1.amazonwebservicesss.com
   port: 80
   type: vmess
   uuid: 6808508f-c51c-4888-8370-d49e78a7f64e
@@ -55,8 +55,8 @@ proxies:
     path: /aws-china-media/QAcTKp3Ic-M.mp4
     headers:
       Host: sg1.amazonwebservicesss.com
-- name: 🇸🇬 i2LktQyM
-  server: cdn.noice.id
+- name: 🇸🇬 gW8vlSk8
+  server: cdn.anycast.eu.org
   port: 80
   type: vmess
   uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
@@ -69,8 +69,8 @@ proxies:
     path: 10ea07e1
     headers:
       Host: cdn.anycast.eu.org
-- name: 🇸🇬 hhFSbEA5
-  server: sogood.linefriends.com
+- name: 🇸🇬 fD0u1KGZ
+  server: 69.nrz.biz.id
   port: 80
   type: vmess
   uuid: 91e2689d-4722-49ba-a285-a092f3f8dc04
@@ -83,8 +83,8 @@ proxies:
     path: /vmess
     headers:
       Host: 69.nrz.biz.id
-- name: 🇸🇬 3PDnjdQ2
-  server: poe.garena.com
+- name: 🇸🇬 r9Ea49JD
+  server: 139.99.61.53
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -97,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 zAjtgmPW
-  server: 104.17.3.81
+- name: 🇸🇬 RwSeoJNC
+  server: 139.99.61.154
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -111,8 +111,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 AE5CFZsI
-  server: ''
+- name: 🇸🇬 AJ4keRfE
+  server: 15.235.202.196
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -125,8 +125,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 pHmAUPfT
-  server: ''
+- name: 🇸🇬 e6NGdsXy
+  server: sg2.safepn.net
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -140,8 +140,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 hwwX0MPy
-  server: ''
+- name: 🇸🇬 jNbXd1OA
+  server: sg-v.sshmax.xyz
   port: 80
   type: vmess
   uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
@@ -154,8 +154,8 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
-- name: 🇸🇬 xQO4Zk6n
-  server: ''
+- name: 🇸🇬 8vb6dPoU
+  server: sigma.jandapirang.my.id
   port: 80
   type: vmess
   uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
@@ -168,8 +168,8 @@ proxies:
     path: /vmess
     headers:
       Host: sigma.jandapirang.my.id
-- name: 🇸🇬 hu8grRvL
-  server: ''
+- name: 🇸🇬 3wio0e3H
+  server: sg2.cloudfast.vn
   port: 80
   type: vmess
   uuid: 19537db7-b002-4a60-8f91-59461bf56c3b
@@ -182,8 +182,8 @@ proxies:
     path: /zingfast.vn
     headers:
       Host: sg2.cloudfast.vn
-- name: 🇸🇬 zKNC86nV
-  server: ''
+- name: 🇸🇬 AuyvDJSF
+  server: cdncf.scyu.app
   port: 80
   type: vmess
   uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
@@ -196,8 +196,8 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       Host: cdncf.scyu.app
-- name: 🇸🇬 y0EZH7LE
-  server: ''
+- name: 🇸🇬 g0lTP8nN
+  server: banterbener.my.id
   port: 80
   type: vmess
   uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
@@ -210,8 +210,8 @@ proxies:
     path: /xrayvws
     headers:
       Host: banterbener.my.id
-- name: 🇸🇬 w3in0PfJ
-  server: ''
+- name: 🇸🇬 O3gPQUDH
+  server: sg-lb.vhax.net
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -224,8 +224,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 bcgnzLSC
-  server: ''
+- name: 🇸🇬 6T0zLpM1
+  server: 15.235.147.186
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
