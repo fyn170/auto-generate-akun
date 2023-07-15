@@ -1,4 +1,4 @@
-name: Update Provider
+name: Update Rule
 
 on:
   schedule:
@@ -15,8 +15,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Proxy Providers
-        working-directory: ./proxy_provider
+      - name: Rule Providers
+        working-directory: ./rule_provider
         run: |
           git clone https://github.com/actions/checkout.git
           cd checkout
@@ -37,16 +37,16 @@ jobs:
           sed -i 's/🇸🇬/SG/g' free-akun.yaml
           sed -i 's/🇮🇩/ID/g' free-akun.yaml
 
-      - name: Trigger Bot Update
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: fyn170/auto-generate-akun
-          event-type: auto-generate-akun
-
-      - name: Auto Commit
+      - name: Configure Git
         run: |
           git config --global user.name 'fyn170'
           git config --global user.email 'firyan170@gmail.com'
-          git commit -am "Update Free Akun"
+
+      - name: Add Files
+        run: |
+          git add free-akun.yaml
+
+      - name: Commit Changes
+        run: |
+          git commit -m "Update Free Akun"
           git push
