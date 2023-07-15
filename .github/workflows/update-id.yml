@@ -12,11 +12,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Proxy Providers
-        working-directory: ./proxy_provider
+      - name: Download Akun List
         run: |
           echo "Downloading akun list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt -o akun.txt
@@ -26,6 +22,15 @@ jobs:
           sed -i '/^vmess/,/^$/!d' akun.txt
           sed -i '/🇮🇩/!d' akun.txt
           sed -i '/websocket/!d' akun.txt
+
+      - name: Move File to Root Folder
+        run: mv akun.txt free-akun-id.yaml
+
+      - name: Copy to Repository
+        uses: actions/upload-artifact@v2
+        with:
+          name: free-akun-id.yaml
+          path: free-akun-id.yaml
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
