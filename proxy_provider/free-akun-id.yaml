@@ -5,6 +5,7 @@ proxies:
   network: ws
   port: 10000
   server: 45.12.80.138
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -19,6 +20,7 @@ proxies:
   network: ws
   port: 80
   server: id-lb.vhax.net
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -34,6 +36,7 @@ proxies:
   network: ws
   port: 80
   server: jpjoq.ftvpn.xyz
+  servername: jpjoq.ftvpn.xyz
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -49,6 +52,7 @@ proxies:
   network: ws
   port: 80
   server: id-rysa-put-ra18n19xz.live
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -64,6 +68,7 @@ proxies:
   network: ws
   port: 80
   server: id-lb.vhax.net
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -79,6 +84,7 @@ proxies:
   network: ws
   port: 80
   server: free-id.ajunstores.me
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
