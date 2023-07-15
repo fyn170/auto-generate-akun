@@ -24,8 +24,6 @@ jobs:
           mv akun.txt free-akun-id.yaml
           sed -i '1i proxies:' free-akun-id.yaml
 
-          python filter_proxies.py
-
       - name: Process Proxies
         run: |
           python - <<EOF
@@ -63,7 +61,7 @@ jobs:
                   host = url_parts.netloc.split(':')[0]
                   random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
                   proxy['name'] = f"\U0001F1EE\U0001F1E9 {random_name}"
-                  proxy['server'] = next(bug_servers_iter)
+                  proxy['server'] = next(bug_servers_iter, '')
                   filtered_proxies.append(proxy)
 
           data['proxies'] = filtered_proxies
