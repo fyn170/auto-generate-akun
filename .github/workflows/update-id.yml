@@ -19,7 +19,7 @@ jobs:
         working-directory: ./proxy_provider
         run: |
           echo "Downloading account list..."
-          curl -s -L https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o akun.txt
+          curl -s -L https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o akun.txt || exit 1
 
           echo "Filtering accounts..."
           sed -i '/websocket/!d' akun.txt
