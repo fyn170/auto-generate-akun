@@ -29,7 +29,9 @@ for proxy in proxies:
         url_parts = urlparse(proxy['server'])
         proxy['server'] = url_parts.netloc
         rotating_host = next(rotating_hosts)
-        proxy['server'] = f"{proxy['server']} {rotating_host}"
+        if proxy['server'].endswith('/'):
+            proxy['server'] = proxy['server'][:-1]  # Menghapus spasi di akhir URL
+        proxy['server'] = f"{proxy['server']}{rotating_host}"
         filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
