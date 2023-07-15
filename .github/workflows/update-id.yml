@@ -23,6 +23,7 @@ jobs:
           sed -i -e '/🇮🇩/!d' akun.txt
           mv akun.txt free-akun-id.yaml
           sed -i '1i proxies:' free-akun-id.yaml
+
           python filter_proxies.py
 
       - name: Trigger Bot Update
