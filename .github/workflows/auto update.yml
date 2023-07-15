@@ -20,6 +20,9 @@ jobs:
           echo "Downloading oisd full source list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o free-akun.yaml
 
+          echo "Adding 'proxies:' to the beginning of the file..."
+          sed -i '1s/^/proxies:\n/' free-akun.yaml
+
           echo "Filtering source list..."
           sed -i -e '/country_code: \(SG\|ID\)/!d' free-akun.yaml
 
