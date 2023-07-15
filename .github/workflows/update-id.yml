@@ -34,7 +34,7 @@ jobs:
 
           echo "Adding 'proxies:' header..."
           sed -i '1s/^/proxies:\n/' free-akun-id.yaml
-          cat free-akun-id.yaml
+          cat -s free-akun-id.yaml
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
