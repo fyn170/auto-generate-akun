@@ -14,10 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Proxy Providers
+      - name: Rule Providers
         working-directory: ./proxy_provider
         run: |
-          echo "Downloading oisd full source list..."
+          echo "Downloading akun list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o free-akun.yaml
 
           echo "Adding 'proxies:' to the beginning of the file..."
