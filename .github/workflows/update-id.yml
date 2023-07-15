@@ -21,18 +21,23 @@ jobs:
           echo "Downloading akun list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt -o akun.txt
 
-      - name: Filter and Convert to JSON
+      - name: Convert to YAML
         working-directory: ./proxy_provider
         run: |
-          echo "Filtering and converting to JSON..."
-          cat akun.txt | grep -E 'trojan|vmess' | grep 'websocket' | grep 'indonesia' > filtered_akun.txt
-          jq -Rn 'inputs | split("\n") | map({name: .}) | {proxies: .}' filtered_akun.txt > akun.json
+          echo "Converting to YAML..."
+          cat akun.txt | grep -E 'trojan|vmess.*ws=.*Indonesia' > akun.yaml
 
-      - name: Convert JSON to YAML
+      - name: Convert to JSON
+        working-directory: ./proxy_provider
         run: |
-          echo "Converting JSON to YAML..."
-          npm install -g json2yaml
-          json2yaml ./proxy_provider/akun.json > ./proxy_provider/akun.yaml
+          echo "Converting to JSON..."
+          yq eval 'select(fileIndex == 0)' akun.yaml | yq eval --tojson > akun.json
+
+      - name: Convert to YAML (OpenClash)
+        working-directory: ./proxy_provider
+        run: |
+          echo "Converting to YAML (OpenClash)..."
+          yq eval -P akun.json > akun_openclash.yaml
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
