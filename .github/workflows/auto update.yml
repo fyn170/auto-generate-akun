@@ -11,24 +11,35 @@ jobs:
     permissions:
       contents: write
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+steps:
+  - name: Checkout
+    run: |
+      git clone https://github.com/actions/checkout.git
+      cd checkout
+      git checkout v3
+      cp -a ./* ../
 
-      - name: Proxy Providers
-        working-directory: ./proxy_provider
-        run: |
-          echo "Downloading akun list..."
-          wget https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -O free-akun.yaml
+  - name: Proxy Providers
+    run: |
+      echo "Downloading akun list..."
+      wget https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -O free-akun.yaml
 
+  - name: Filter Config
+    run: |
+      sed -i -n '/\(SG🇸🇬\|ID🇮🇩\)/p' free-akun.yaml
 
-      - name: Trigger Bot Update
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: fyn170/auto-generate-akun
-          event-type: auto-generate-akun
+  - name: Convert Config
+    run: |
+      sed -i 's/🇸🇬/SG/g' free-akun.yaml
+      sed -i 's/🇮🇩/ID/g' free-akun.yaml
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update Free Akun
+  - name: Trigger Bot Update
+    uses: peter-evans/repository-dispatch@v1
+    with:
+      token: ${{ secrets.GITHUB_TOKEN }}
+      repository: fyn170/auto-generate-akun
+      event-type: auto-generate-akun
+
+  - uses: stefanzweifel/git-auto-commit-action@v4
+    with:
+      commit_message: Update Free Akun
