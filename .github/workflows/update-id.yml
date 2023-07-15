@@ -69,8 +69,6 @@ jobs:
           with open('filtered_proxies.yaml', 'w') as f:
               yaml.dump(filtered_proxies, f, sort_keys=False)
 
-EOF
-
           mv akun.txt free-akun-id.yaml
           sed -i '1i proxies:' free-akun-id.yaml
 
