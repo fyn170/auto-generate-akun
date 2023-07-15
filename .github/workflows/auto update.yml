@@ -20,6 +20,7 @@ jobs:
         run: |
           echo "Downloading akun list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o akun.txt
+          sed -i '/ID-/!d' akun.txt
           sed -i '/SG-/!d' akun.txt
           mv akun.txt free-akun.yaml
       - name: Trigger Bot Update
