@@ -38,13 +38,13 @@ for proxy in proxies:
         host = url_parts.netloc.split(':')[0]
         if host in flex_hosts:
             proxy['server'] = host
+            filtered_proxies.append(proxy)
         elif host in game_hosts:
             proxy['server'] = host
+            filtered_proxies.append(proxy)
         elif host in edukasi_hosts:
             proxy['server'] = host
-        else:
-            continue
-        filtered_proxies.append(proxy)
+            filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
 
