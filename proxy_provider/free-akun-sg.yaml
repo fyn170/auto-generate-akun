@@ -1,0 +1,722 @@
+proxies:
+- name: 🇮🇩 SWUBjKY8
+  server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇮🇩 cL4fsb8z
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8.214.33.158
+- name: 🇮🇩 qzah0sXL
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: 8fhq6a.aiossh.my.id
+- name: 🇮🇩 Cm5xqI34
+  server: www.noice.id
+  port: 80
+  type: vmess
+  uuid: 60f30e26-0af7-4b64-ba94-71450ed77e23
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: 139.99.61.53
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇮🇩 NF2z005O
+  server: cdn.noice.id
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+    headers:
+      Host: sg-lb.vhax.net
+- name: 🇮🇩 BuZ9f7PW
+  server: sogood.linefriends.com
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: 15.235.147.186
+  network: ws
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+- name: 🇮🇩 EE8vuuIY
+  server: poe.garena.com
+  port: 80
+  type: vmess
+  uuid: e2caa52d-17ea-3231-a411-c543f8a6534e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v2ray
+- name: 🇮🇩 BCbcd7Dx
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: f114e6d9-0cda-4fe8-b769-3bceb3bca453
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /zh-cn/
+- name: 🇮🇩 aAANFaCD
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 91232166-9695-3945-9f95-0a9b0269b3b1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v2ray
+- name: 🇮🇩 u56qhwjM
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /anti13.zingfast.vn
+- name: 🇮🇩 SrU8jkgd
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /anti13.zingfast.vn
+- name: 🇮🇩 lSjGtFVm
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /anti13.zingfast.vn
+- name: 🇮🇩 V8JCyD1A
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /anti13.zingfast.vn
+- name: 🇮🇩 4vnI7pF9
+  server: ''
+  port: 80
+  type: vmess
+  uuid: f114e6d9-0cda-4fe8-b769-3bceb3bca453
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /zh-cn/
+- name: 🇮🇩 Q6ba6xvo
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇮🇩 EOf8IXhL
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 19537db7-b002-4a60-8f91-59461bf56c3b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /zingfast.vn
+- name: 🇮🇩 xFd4ksvC
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 6808508f-c51c-4888-8370-d49e78a7f64e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aws-china-media/QAcTKp3Ic-M.mp4
+- name: 🇮🇩 385hzTZ6
+  server: ''
+  port: 80
+  type: vmess
+  uuid: f114e6d9-0cda-4fe8-b769-3bceb3bca453
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /zh-cn/
+- name: 🇮🇩 MhetsCOu
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 6808508f-c51c-4888-8370-d49e78a7f64e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aws-china-media/QAcTKp3Ic-M.mp4
+- name: 🇮🇩 Mei4xOj3
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 6808508f-c51c-4888-8370-d49e78a7f64e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aws-china-media/QAcTKp3Ic-M.mp4
+    headers:
+      Host: sg1.amazonwebservicesss.com
+- name: 🇮🇩 rcChEMrn
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 6808508f-c51c-4888-8370-d49e78a7f64e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aws-china-media/QAcTKp3Ic-M.mp4
+- name: 🇮🇩 UFVHbkXA
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 10ea07e1
+    headers:
+      Host: cdn.anycast.eu.org
+- name: 🇮🇩 oViHUeaS
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇮🇩 9vabGS4u
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 91e2689d-4722-49ba-a285-a092f3f8dc04
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 69.nrz.biz.id
+- name: 🇮🇩 d0m9wMZ3
+  server: ''
+  port: 80
+  type: vmess
+  uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 139.99.61.53
+- name: 🇮🇩 6kTZRrzs
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 139.99.61.154
+- name: 🇮🇩 mJLRUfOO
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 15.235.202.196
+- name: 🇮🇩 2YoywC5g
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /anti13.zingfast.vn
+- name: 🇮🇩 EwKl28zl
+  server: ''
+  port: 80
+  type: vmess
+  uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v2ray
+- name: 🇮🇩 0MVAEezO
+  server: ''
+  port: 80
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇮🇩 J6vdWrpF
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇮🇩 tm2D6bDG
+  server: ''
+  port: 80
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg2.safepn.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg2.safepn.net
+- name: 🇮🇩 zqW95juY
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 4
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇮🇩 WWb6OzR0
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇮🇩 FOeT5jzF
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇮🇩 FsDiw5AW
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇮🇩 lbhsLRK1
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /fastssh
+- name: 🇮🇩 pjEMlqF1
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 3701ded3-09ba-4154-970d-a9f4a090a382
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇮🇩 XdD4ZQzc
+  server: ''
+  port: 80
+  type: vmess
+  uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /graphql
+- name: 🇮🇩 w6M8asat
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-v.sshmax.xyz
+- name: 🇮🇩 wMuWkmLg
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 5bb6b5c3-40dd-4a1f-9f43-802320cc5b56
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /project4gyuna.pw
+- name: 🇮🇩 uPascqOJ
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sigma.jandapirang.my.id
+- name: 🇮🇩 OxC407pB
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 19537db7-b002-4a60-8f91-59461bf56c3b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /zingfast.vn
+    headers:
+      Host: sg2.cloudfast.vn
+- name: 🇮🇩 S32EAVzk
+  server: ''
+  port: 80
+  type: vmess
+  uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      Host: cdncf.scyu.app
+- name: 🇮🇩 8UhjmsBu
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /xrayvws
+    headers:
+      Host: banterbener.my.id
+- name: 🇮🇩 iTm0rMNH
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 0e88120c-14e5-449b-8f2e-c22ec0df6599
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mehdi
+- name: 🇮🇩 tSkuehnf
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mehdi
+- name: 🇮🇩 mCCio55b
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 62c655e5-d9a3-45c2-cc84-4141c542a6f4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mehdi
+- name: 🇮🇩 AbQU4tEP
+  server: ''
+  port: 80
+  type: vmess
+  uuid: ba9c93d7-490c-4dba-c21a-a50b94cd9c90
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mehdi
+- name: 🇮🇩 SSSqxVq6
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 89a151c7-9484-4e63-d921-c30245337408
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mehdi
+- name: 🇮🇩 1slRYJR4
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 3590898e-6f91-4a7b-de36-7c497d5197f9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mehdi
+- name: 🇮🇩 l9lG5img
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mehdi
+- name: 🇮🇩 2cB8k3Bb
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 62c655e5-d9a3-45c2-cc84-4141c542a6f4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mehdi
+- name: 🇮🇩 fccfEyRd
+  server: ''
+  port: 80
+  type: vmess
+  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇮🇩 C0FuBwxm
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+    headers:
+      Host: zoom.us
+- name: 🇮🇩 TpBwsow0
+  server: ''
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+    headers:
+      Host: 15.235.147.186
+- name: 🇮🇩 vCh99N2M
+  server: ''
+  port: 80
+  type: vmess
+  uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
