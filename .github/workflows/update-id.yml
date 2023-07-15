@@ -24,32 +24,49 @@ jobs:
 
           echo "proxies:" > filtered_proxies.json
 
-          # Loop through the proxies
-          for proxy in "${{ toJSON(proxies) }}"; do
-            type=$(echo "$proxy" | jq -r '.type')
+          python3 - <<EOF
+          import json
 
-            # Check if the proxy is vmess with websocket
-            if [[ $type == "vmess" ]]; then
-              name=$(echo "$proxy" | jq -r '.name')
-              server=$(echo "$proxy" | jq -r '.server')
-              port=$(echo "$proxy" | jq -r '.port')
-              network=$(echo "$proxy" | jq -r '.network')
-              ws_path=$(echo "$proxy" | jq -r '.ws-opts.path')
-              ws_headers=$(echo "$proxy" | jq -r '.ws-opts.headers.Host')
+          with open('proxies.json') as f:
+              proxies = json.load(f)
 
-              echo "- {'name': '$name', 'server': '$server', 'port': $port, 'type': 'vmess', 'network': 'ws', 'ws-opts': {'path': '$ws_path', 'headers': {'Host': '$ws_headers'}}}" >> filtered_proxies.json
-            fi
+          filtered_proxies = []
 
-            # Check if the proxy is trojan with websocket
-            if [[ $type == "trojan" ]]; then
-              name=$(echo "$proxy" | jq -r '.name')
-              server=$(echo "$proxy" | jq -r '.server')
-              port=$(echo "$proxy" | jq -r '.port')
-              password=$(echo "$proxy" | jq -r '.password')
+          for proxy in proxies:
+              proxy_type = proxy.get('type')
 
-              echo "- {'name': '$name', 'server': '$server', 'port': $port, 'type': 'trojan', 'password': '$password', 'skip-cert-verify': false}" >> filtered_proxies.json
-            fi
-          done
+              # Check if the proxy is vmess with websocket
+              if proxy_type == 'vmess' and proxy.get('network') == 'ws':
+                  filtered_proxy = {
+                      'name': proxy.get('name'),
+                      'server': proxy.get('server'),
+                      'port': proxy.get('port'),
+                      'type': 'vmess',
+                      'network': 'ws',
+                      'ws-opts': {
+                          'path': proxy.get('ws-opts', {}).get('path'),
+                          'headers': {
+                              'Host': proxy.get('ws-opts', {}).get('headers', {}).get('Host')
+                          }
+                      }
+                  }
+                  filtered_proxies.append(filtered_proxy)
+
+              # Check if the proxy is trojan with websocket
+              if proxy_type == 'trojan':
+                  filtered_proxy = {
+                      'name': proxy.get('name'),
+                      'server': proxy.get('server'),
+                      'port': proxy.get('port'),
+                      'type': 'trojan',
+                      'password': proxy.get('password'),
+                      'skip-cert-verify': proxy.get('skip-cert-verify')
+                  }
+                  filtered_proxies.append(filtered_proxy)
+
+          with open('filtered_proxies.json', 'w') as f:
+              json.dump(filtered_proxies, f, indent=2)
+          EOF
 
           mv akun.txt free-akun-id.yaml
           sed -i '1i proxies:' free-akun-id.yaml
