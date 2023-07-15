@@ -21,6 +21,7 @@ jobs:
           echo "Downloading akun list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o akun.txt
           sed -i -e '/🇮🇩/!d' akun.txt
+          cat proxies.json | jq 'map(select(.type == "vmess" and .network == "ws"))' > filtered_proxies.json
           mv akun.txt free-akun-id.yaml
           sed -i '1i proxies:' free-akun-id.yaml
       - name: Trigger Bot Update
