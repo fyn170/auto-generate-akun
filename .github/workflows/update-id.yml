@@ -27,6 +27,10 @@ jobs:
           sed -i '1s/^/proxies:\n/' akun.txt
           mv akun.txt free-akun-id.yaml
 
+      - name: Check File Existence
+        run: |
+          ls -la
+
       - name: Display File Contents
         run: |
           echo "Contents of free-akun-id.yaml:"
