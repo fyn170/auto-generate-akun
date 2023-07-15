@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 gkYRBApH
+- name: 🇸🇬 aTNiL5IO
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -11,7 +11,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬 pFD0ViAx
+- name: 🇸🇬 X3LqTVfO
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -25,7 +25,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 Dzcrxr0Z
+- name: 🇸🇬 m3CRGnUk
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -39,7 +39,7 @@ proxies:
     path: /v2ray
     headers:
       Host: 8fhq6a.aiossh.my.id
-- name: 🇸🇬 YEW9uqGx
+- name: 🇸🇬 iPxuanDx
   server: www.noice.id
   port: 80
   type: vmess
@@ -52,7 +52,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: 🇸🇬 SvWn90h3
+- name: 🇸🇬 nPtfktK8
   server: cdn.noice.id
   port: 80
   type: vmess
@@ -66,7 +66,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 mD90Gaya
+- name: 🇸🇬 Dfdy9zI1
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -79,7 +79,7 @@ proxies:
   network: ws
   ws-opts:
     path: /sshkit/Ertusg86/635014638c264/
-- name: 🇸🇬 KRI9j9Dk
+- name: 🇸🇬 u9c5NqdV
   server: poe.garena.com
   port: 80
   type: vmess
@@ -91,7 +91,7 @@ proxies:
   network: ws
   ws-opts:
     path: /v2ray
-- name: 🇸🇬 wgBa2geZ
+- name: 🇸🇬 4knLS8nZ
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -103,7 +103,7 @@ proxies:
   network: ws
   ws-opts:
     path: /zh-cn/
-- name: 🇸🇬 OelD1A10
+- name: 🇸🇬 dBKf3OwY
   server: ''
   port: 80
   type: vmess
@@ -115,7 +115,7 @@ proxies:
   network: ws
   ws-opts:
     path: /v2ray
-- name: 🇸🇬 ZrYMt584
+- name: 🇸🇬 AF8GEpwV
   server: ''
   port: 80
   type: vmess
@@ -127,7 +127,7 @@ proxies:
   network: ws
   ws-opts:
     path: /anti13.zingfast.vn
-- name: 🇸🇬 KtybOXWP
+- name: 🇸🇬 a8mxpl7w
   server: ''
   port: 80
   type: vmess
@@ -139,7 +139,7 @@ proxies:
   network: ws
   ws-opts:
     path: /anti13.zingfast.vn
-- name: 🇸🇬 TFm8XSC5
+- name: 🇸🇬 aYVkvTWj
   server: ''
   port: 80
   type: vmess
@@ -151,7 +151,7 @@ proxies:
   network: ws
   ws-opts:
     path: /anti13.zingfast.vn
-- name: 🇸🇬 glBVmEyf
+- name: 🇸🇬 tYyXMasF
   server: ''
   port: 80
   type: vmess
@@ -163,7 +163,7 @@ proxies:
   network: ws
   ws-opts:
     path: /anti13.zingfast.vn
-- name: 🇸🇬 Na4CGxWf
+- name: 🇸🇬 givl3b5F
   server: ''
   port: 80
   type: vmess
@@ -175,7 +175,7 @@ proxies:
   network: ws
   ws-opts:
     path: /zh-cn/
-- name: 🇸🇬 rd05ta0G
+- name: 🇸🇬 5lfKAwlE
   server: ''
   port: 80
   type: vmess
@@ -187,7 +187,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: 🇸🇬 KSFojk2C
+- name: 🇸🇬 qfXEhXxx
   server: ''
   port: 80
   type: vmess
@@ -199,7 +199,7 @@ proxies:
   network: ws
   ws-opts:
     path: /zingfast.vn
-- name: 🇸🇬 seBhQrjy
+- name: 🇸🇬 hz5WfCEy
   server: ''
   port: 80
   type: vmess
@@ -211,7 +211,7 @@ proxies:
   network: ws
   ws-opts:
     path: /aws-china-media/QAcTKp3Ic-M.mp4
-- name: 🇸🇬 b19Ct2uA
+- name: 🇸🇬 NxdSzVn3
   server: ''
   port: 80
   type: vmess
@@ -223,7 +223,7 @@ proxies:
   network: ws
   ws-opts:
     path: /zh-cn/
-- name: 🇸🇬 c89IGQzr
+- name: 🇸🇬 YQLAaPn9
   server: ''
   port: 80
   type: vmess
@@ -235,7 +235,7 @@ proxies:
   network: ws
   ws-opts:
     path: /aws-china-media/QAcTKp3Ic-M.mp4
-- name: 🇸🇬 wBnZxm4W
+- name: 🇸🇬 zbeABESL
   server: ''
   port: 80
   type: vmess
@@ -249,7 +249,7 @@ proxies:
     path: /aws-china-media/QAcTKp3Ic-M.mp4
     headers:
       Host: sg1.amazonwebservicesss.com
-- name: 🇸🇬 ujysb8hC
+- name: 🇸🇬 7uB0kmGx
   server: ''
   port: 80
   type: vmess
@@ -261,7 +261,7 @@ proxies:
   network: ws
   ws-opts:
     path: /aws-china-media/QAcTKp3Ic-M.mp4
-- name: 🇸🇬 sfficZoW
+- name: 🇸🇬 XoD4GMrw
   server: ''
   port: 80
   type: vmess
@@ -275,7 +275,7 @@ proxies:
     path: 10ea07e1
     headers:
       Host: cdn.anycast.eu.org
-- name: 🇸🇬 tWMEbNFE
+- name: 🇸🇬 dRblveu2
   server: ''
   port: 80
   type: vmess
@@ -287,7 +287,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬 cdkfQA2a
+- name: 🇸🇬 wEJor8Eo
   server: ''
   port: 80
   type: vmess
@@ -301,7 +301,7 @@ proxies:
     path: /vmess
     headers:
       Host: 69.nrz.biz.id
-- name: 🇸🇬 dTe7bgAX
+- name: 🇸🇬 KbKbDXwn
   server: ''
   port: 80
   type: vmess
@@ -315,7 +315,7 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 ud1dWwtT
+- name: 🇸🇬 bzKFOMRy
   server: ''
   port: 80
   type: vmess
@@ -329,7 +329,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 xfpUSNkq
+- name: 🇸🇬 BsgnCpWH
   server: ''
   port: 80
   type: vmess
@@ -343,7 +343,7 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 Vynezns3
+- name: 🇸🇬 WyMDzeel
   server: ''
   port: 80
   type: vmess
@@ -355,7 +355,7 @@ proxies:
   network: ws
   ws-opts:
     path: /anti13.zingfast.vn
-- name: 🇸🇬 yRdXxpb1
+- name: 🇸🇬 BHfiniEO
   server: ''
   port: 80
   type: vmess
@@ -367,7 +367,7 @@ proxies:
   network: ws
   ws-opts:
     path: /v2ray
-- name: 🇸🇬 BLwgbRDi
+- name: 🇸🇬 J9kkk1XY
   server: ''
   port: 80
   type: vmess
@@ -379,7 +379,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬 w5d25jb6
+- name: 🇸🇬 q5w7xFbn
   server: ''
   port: 80
   type: vmess
@@ -391,7 +391,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬 yz1cVT5I
+- name: 🇸🇬 IdWWoJHN
   server: ''
   port: 80
   type: vmess
@@ -406,7 +406,7 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 nV1Cws8D
+- name: 🇸🇬 FNUxYzGg
   server: ''
   port: 80
   type: vmess
@@ -418,7 +418,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬 aW4R7EpX
+- name: 🇸🇬 NpTIxlFT
   server: ''
   port: 80
   type: vmess
@@ -430,7 +430,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: 🇸🇬 E6m4RlmU
+- name: 🇸🇬 DBxpmQOZ
   server: ''
   port: 80
   type: vmess
@@ -442,7 +442,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: 🇸🇬 zCzlJl3B
+- name: 🇸🇬 zsGI4XET
   server: ''
   port: 80
   type: vmess
@@ -454,7 +454,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬 RuzGxnBv
+- name: 🇸🇬 ZHWRQOv8
   server: ''
   port: 80
   type: vmess
@@ -466,7 +466,7 @@ proxies:
   network: ws
   ws-opts:
     path: /fastssh
-- name: 🇸🇬 zMU8zS73
+- name: 🇸🇬 aatjYR6t
   server: ''
   port: 80
   type: vmess
@@ -478,7 +478,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: 🇸🇬 ai3xox4M
+- name: 🇸🇬 cAgdPbbw
   server: ''
   port: 80
   type: vmess
@@ -490,7 +490,7 @@ proxies:
   network: ws
   ws-opts:
     path: /graphql
-- name: 🇸🇬 LPF87Aof
+- name: 🇸🇬 kqA5LOAi
   server: ''
   port: 80
   type: vmess
@@ -504,7 +504,7 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
-- name: 🇸🇬 puATpa16
+- name: 🇸🇬 pnAaHUml
   server: ''
   port: 80
   type: vmess
@@ -516,7 +516,7 @@ proxies:
   network: ws
   ws-opts:
     path: /project4gyuna.pw
-- name: 🇸🇬 7icpLmAI
+- name: 🇸🇬 58Vj4ZE9
   server: ''
   port: 80
   type: vmess
@@ -530,7 +530,7 @@ proxies:
     path: /vmess
     headers:
       Host: sigma.jandapirang.my.id
-- name: 🇸🇬 hkLwEOrx
+- name: 🇸🇬 BRUPLcYf
   server: ''
   port: 80
   type: vmess
@@ -544,7 +544,7 @@ proxies:
     path: /zingfast.vn
     headers:
       Host: sg2.cloudfast.vn
-- name: 🇸🇬 gmMODpfY
+- name: 🇸🇬 OA3cMmS9
   server: ''
   port: 80
   type: vmess
@@ -558,7 +558,7 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       Host: cdncf.scyu.app
-- name: 🇸🇬 9qNgOvlO
+- name: 🇸🇬 079ghJbh
   server: ''
   port: 80
   type: vmess
@@ -572,7 +572,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: banterbener.my.id
-- name: 🇸🇬 Td6MXQpV
+- name: 🇸🇬 kBQ4WDZx
   server: ''
   port: 80
   type: vmess
@@ -584,7 +584,7 @@ proxies:
   network: ws
   ws-opts:
     path: /mehdi
-- name: 🇸🇬 c6HL64dv
+- name: 🇸🇬 VV9L2WE2
   server: ''
   port: 80
   type: vmess
@@ -596,7 +596,7 @@ proxies:
   network: ws
   ws-opts:
     path: /mehdi
-- name: 🇸🇬 pW92HvfH
+- name: 🇸🇬 HZ1z5DF9
   server: ''
   port: 80
   type: vmess
@@ -608,7 +608,7 @@ proxies:
   network: ws
   ws-opts:
     path: /mehdi
-- name: 🇸🇬 iQHsi7mp
+- name: 🇸🇬 13KUiSEJ
   server: ''
   port: 80
   type: vmess
@@ -620,7 +620,7 @@ proxies:
   network: ws
   ws-opts:
     path: /mehdi
-- name: 🇸🇬 MJjksTNM
+- name: 🇸🇬 q9om9jDb
   server: ''
   port: 80
   type: vmess
@@ -632,7 +632,7 @@ proxies:
   network: ws
   ws-opts:
     path: /mehdi
-- name: 🇸🇬 2jhrIGwY
+- name: 🇸🇬 takpuTeI
   server: ''
   port: 80
   type: vmess
@@ -644,7 +644,7 @@ proxies:
   network: ws
   ws-opts:
     path: /mehdi
-- name: 🇸🇬 sscdQt9d
+- name: 🇸🇬 0wkprom5
   server: ''
   port: 80
   type: vmess
@@ -656,7 +656,7 @@ proxies:
   network: ws
   ws-opts:
     path: /mehdi
-- name: 🇸🇬 jSS67co3
+- name: 🇸🇬 QpHs5ES1
   server: ''
   port: 80
   type: vmess
@@ -668,7 +668,7 @@ proxies:
   network: ws
   ws-opts:
     path: /mehdi
-- name: 🇸🇬 3NAHGqBa
+- name: 🇸🇬 1EWQgonr
   server: ''
   port: 80
   type: vmess
@@ -680,7 +680,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬 eZ1sFmbU
+- name: 🇸🇬 Snrxv8SK
   server: ''
   port: 80
   type: vmess
@@ -694,7 +694,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 xgD1fQZX
+- name: 🇸🇬 QfaUH8WT
   server: ''
   port: 80
   type: vmess
@@ -708,7 +708,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: 15.235.147.186
-- name: 🇸🇬 ZYm0DXi8
+- name: 🇸🇬 znwN5jQh
   server: ''
   port: 80
   type: vmess
