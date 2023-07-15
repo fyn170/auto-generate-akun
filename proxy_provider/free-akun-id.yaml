@@ -1,11 +1,5 @@
 proxies:
-- name: 🇮🇩ID-103.169.7.11-1852-ujaczewj🇮🇩
-  server: 103.169.7.11
-  port: 80
-  type: trojan
-  password: c0d9da22-2569-4bed-a395-607d9e7ae687
-  skip-cert-verify: false
-- name: 🇮🇩ID-45.12.80.138-1853-uugudzds🇮🇩
+- name: 🇮🇩ID-45.12.80.138-1853
   server: 45.12.80.138
   port: 10000
   type: vmess
@@ -17,7 +11,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vpnjantit
-- name: 🇮🇩ID-103.173.75.163-5336-kmodiwcs🇮🇩
+- name: 🇮🇩ID-103.173.75.163-5336
   server: id-lb.vhax.net
   port: 80
   type: vmess
@@ -31,7 +25,7 @@ proxies:
     path: /sshkit/Arsham85231/6347d08022b91/
     headers:
       Host: zoom.us
-- name: 🇮🇩ID-147.139.160.130-6201-muzfpafl🇮🇩
+- name: 🇮🇩ID-147.139.160.130-6201
   server: jpjoq.ftvpn.xyz
   port: 80
   type: vmess
@@ -46,7 +40,7 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
-- name: 🇮🇩ID-103.180.165.141-10038-qelpsgpy🇮🇩
+- name: 🇮🇩ID-103.180.165.141-10038
   server: id-rysa-put-ra18n19xz.live
   port: 80
   type: vmess
@@ -60,7 +54,7 @@ proxies:
     path: /vmess
     headers:
       Host: id-rysa-put-ra18n19xz.live
-- name: 🇮🇩ID-103.173.75.163-10039-xacmhldy🇮🇩
+- name: 🇮🇩ID-103.173.75.163-10039
   server: id-lb.vhax.net
   port: 80
   type: vmess
@@ -74,7 +68,7 @@ proxies:
     path: /sshkit/Arsham85231/6347d08022b91/
     headers:
       Host: id-lb.vhax.net
-- name: 🇮🇩ID-103.139.193.211-10040-kabpedlv🇮🇩
+- name: 🇮🇩ID-103.139.193.211-10040
   server: free-id.ajunstores.me
   port: 80
   type: vmess
@@ -88,53 +82,3 @@ proxies:
     path: /v2ray
     headers:
       Host: free-id.ajunstores.me
-- name: 🇮🇩ID-103.176.78.153-10041-pkbqfffi🇮🇩
-  server: 103.176.78.153
-  port: 443
-  type: trojan
-  password: idc117okt
-  skip-cert-verify: false
-- name: 🇮🇩ID-103.253.24.216-10439-vtheldxy🇮🇩
-  server: sg3-trojan.bonds.id
-  port: 443
-  type: trojan
-  password: 97fdf760-7bbf-11eb-8e14-1239d0255272
-  skip-cert-verify: false
-- name: 🇮🇩ID-103.253.24.216-10440-naczdmbu🇮🇩
-  server: 103.253.24.216
-  port: 443
-  type: trojan
-  password: 97fdf760-7bbf-11eb-8e14-1239d0255272
-  sni: sg3-trojan.bonds.id
-  skip-cert-verify: false
-- name: 🇮🇩ID-103.253.24.212-10443-askngzpt🇮🇩
-  server: sg1-trojan.bonds.id
-  port: 443
-  type: trojan
-  password: 5c5ceb40-902b-11eb-945a-1239d0255272
-  skip-cert-verify: false
-- name: 🇮🇩ID-103.253.24.212-10444-tgkvvwkl🇮🇩
-  server: 103.253.24.212
-  port: 443
-  type: trojan
-  password: 5c5ceb40-902b-11eb-945a-1239d0255272
-  sni: sg1-trojan.bonds.id
-  skip-cert-verify: false
-- name: 🇮🇩ID-41.216.177.41-15151-zxatdrvb🇮🇩
-  server: 41.216.177.41
-  port: 443
-  type: trojan
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
-  skip-cert-verify: false
-- name: 🇮🇩ID-103.253.24.212-17729-klitgnwh🇮🇩
-  server: sg1-trojan.bonds.id
-  port: 443
-  type: trojan
-  password: 27d01290-3763-11ed-90db-1239d0255272
-  skip-cert-verify: false
-- name: 🇮🇩ID-103.226.139.201-19022-zhbczkve🇮🇩
-  server: 103.226.139.201
-  port: 443
-  type: trojan
-  password: idc117okt
-  skip-cert-verify: false
