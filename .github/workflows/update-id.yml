@@ -26,6 +26,10 @@ jobs:
 
           python filter_proxies.py
 
+      - name: Pull latest changes
+        run: |
+          git pull origin main
+
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
         with:
