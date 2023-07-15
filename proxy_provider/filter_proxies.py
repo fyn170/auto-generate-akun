@@ -4,11 +4,13 @@ from urllib.parse import urlparse
 
 # Daftar host yang ingin ditambahkan pada entri server
 additional_hosts = [
-    "sogood.linefriends.com",
     "104.17.3.81",
+    "104.18.3.2",
     "quiz.vidio.com",
     "cdn.noice.id",
-    "cdn.appsflyer.com"
+    "cdn.appsflyer.com",
+    "zendesk1.grabtaxi.com",
+    "sogood.linefriends.com"
 ]
 
 # Mengatur rotasi pada daftar host
