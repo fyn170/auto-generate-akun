@@ -24,27 +24,6 @@ jobs:
           cat proxies.json | jq 'map(select(.type == "vmess" and .network == "ws"))' > filtered_proxies.json
           mv akun.txt free-akun-id.yaml
           sed -i '1i proxies:' free-akun-id.yaml
-      - name: Fetch Proxies
-        run: |
-          # Loop through the proxies
-          for proxy in "${{ toJSON(proxies) }}"; do
-            type=$(echo "$proxy" | jq -r '.type')
-
-            # Check if the proxy is vmess or trojan with web socket
-            if [[ $type == "vmess" ]]; then
-              uuid=$(echo "$proxy" | jq -r '.uuid')
-              network=$(echo "$proxy" | jq -r '.network')
-              ws_path=$(echo "$proxy" | jq -r '.ws-opts.path')
-              headers=$(echo "$proxy" | jq -r '.ws-opts.headers | to_entries[] | "-H \"" + .key + ": " + .value + "\" "')
-
-              echo "vmess://$uuid@$network:$ws_path $headers"
-            elif [[ $type == "trojan" ]]; then
-              password=$(echo "$proxy" | jq -r '.password')
-              skip_cert_verify=$(echo "$proxy" | jq -r '.skip-cert-verify')
-
-              echo "trojan://$password?skip-cert-verify=$skip_cert_verify"
-            fi
-          done
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
         with:
