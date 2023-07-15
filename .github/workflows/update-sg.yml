@@ -2,7 +2,7 @@ name: Update sg
 
 on:
   schedule:
-    - cron: '0 20 * * *'
+    - cron: '0 17 * * *'    # Auto update rule 00.00 WIB (GMT+7)
   workflow_dispatch:
 
 jobs:
