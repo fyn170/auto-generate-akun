@@ -1,0 +1,44 @@
+name: Update Providers
+
+on:
+  schedule:
+    - cron: '0 17 * * *'    # Auto update rule 00.00 WIB (GMT+7)
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Proxy Providers
+        working-directory: ./proxy_provider
+        run: |
+          echo "Downloading oisd full source list..."
+          curl -s https://big.oisd.nl/ -o ads.txt
+          sed -i '1d' ads.txt      #Delete line 1
+          sed -i 's/^\!/#/g' ads.txt    #Repleace '!' dengan '#'
+          sed -i '4,7d' ads.txt    #Delete line 4-7
+          sed -i 's/||/  - "+./g' ads.txt       #Repleace '||' dengan -"+.
+          sed -i -e '$a"' ads.txt         #Ganti ^ dengan "
+          sed -i 's|# Title: oisd big|payload:|' ads.txt          #Repleace Name oisd
+          sed -i '/^$/d' ads.txt      #Hapus baris kosong
+          sed -i 's/\^/"/g' ads.txt     #Ganti ^ dengan "
+          mv ads.txt ads.yaml
+
+          echo "Downloading Apkpure source list..."
+          curl -s https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apkpure/Apkpure.yaml -o apkpure.yaml
+
+      - name: Trigger Bot Update
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: fyn170/ruleupdate
+          event-type: auto-generate-akun
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Free Akun
