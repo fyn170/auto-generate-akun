@@ -20,14 +20,6 @@ jobs:
         run: |
           echo "Downloading akun list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o free-akun.yaml
-
-          # Filter hanya negara Singapura (SG) dan Indonesia (ID)
-          sed -i '/^[[:space:]]*- "\((SG🇸🇬)\|(ID🇮🇩)\)/!d' free-akun.yaml
-
-          # Mengubah karakter emoji menjadi kode negara
-          sed -i 's/🇸🇬/SG/g' free-akun.yaml
-          sed -i 's/🇮🇩/ID/g' free-akun.yaml
-
           
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
