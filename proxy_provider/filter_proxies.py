@@ -9,6 +9,17 @@ with open('free-akun-id.yaml', 'r') as file:
 proxies = data.get('proxies', [])
 
 filtered_proxies = []
+bug_servers = [
+    '104.17.3.81',
+    'quiz.vidio.com',
+    'zendesk1.grab.com',
+    'cdn.appsflyer.com',
+    'www.noice.id',
+    'cdn.noice.id',
+    'sogood.linefriends.com',
+    'poe.garena.com'
+]
+
 for proxy in proxies:
     if (
         proxy.get('network') == 'ws' and
@@ -16,10 +27,11 @@ for proxy in proxies:
     ):
         url_parts = urlparse(proxy['server'])
         host = url_parts.netloc.split(':')[0]
-        random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
-        proxy['name'] = f"\U0001F1EE\U0001F1E9 {random_name}"
-        proxy['server'] = host
-        filtered_proxies.append(proxy)
+        if host in bug_servers:
+            random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
+            proxy['name'] = f"\U0001F1EE\U0001F1E9 {random_name}"
+            proxy['server'] = 'bug'
+            filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
 
