@@ -1,4 +1,10 @@
+import random
+import string
 import yaml
+
+def generate_random_name(length):
+    letters = string.ascii_lowercase
+    return ''.join(random.choice(letters) for _ in range(length))
 
 with open('free-akun-id.yaml', 'r') as file:
     data = yaml.safe_load(file)
@@ -6,8 +12,9 @@ with open('free-akun-id.yaml', 'r') as file:
 proxies = data.get('proxies', [])
 
 filtered_proxies = []
-for i, proxy in enumerate(proxies):
-    name = f"proxy{i+1}"
+for proxy in proxies:
+    random_name = generate_random_name(8)
+    name = f"{proxy.get('name', '')}-{random_name}🇮🇩"
     proxy['name'] = name
     filtered_proxies.append(proxy)
 
