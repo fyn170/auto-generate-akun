@@ -3,7 +3,7 @@ from urllib.parse import urlparse
 import random
 import string
 
-files = ['free-akun-id.yaml', 'free-akun-sg.yaml']
+files = ['free-akun-id.yaml', 'free-akun-sg.yaml', 'r']
 
 bug_servers = [
     '104.17.3.81',
