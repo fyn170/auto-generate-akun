@@ -18,25 +18,16 @@ jobs:
         working-directory: ./proxy_provider
         run: |
           echo "Downloading oisd full source list..."
-          curl -s https://big.oisd.nl/ -o ads.txt
-          sed -i '1d' ads.txt      #Delete line 1
-          sed -i 's/^\!/#/g' ads.txt    #Repleace '!' dengan '#'
-          sed -i '4,7d' ads.txt    #Delete line 4-7
-          sed -i 's/||/  - "+./g' ads.txt       #Repleace '||' dengan -"+.
-          sed -i -e '$a"' ads.txt         #Ganti ^ dengan "
-          sed -i 's|# Title: oisd big|payload:|' ads.txt          #Repleace Name oisd
-          sed -i '/^$/d' ads.txt      #Hapus baris kosong
-          sed -i 's/\^/"/g' ads.txt     #Ganti ^ dengan "
-          mv ads.txt ads.yaml
+          curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o free-akun.yaml
 
-          echo "Downloading Apkpure source list..."
-          curl -s https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apkpure/Apkpure.yaml -o apkpure.yaml
+          echo "Filtering source list..."
+          sed -i -e '/country_code: \(SG\|ID\)/!d' free-akun.yaml
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: fyn170/ruleupdate
+          repository: fyn170/auto-generate-akun
           event-type: auto-generate-akun
 
       - uses: stefanzweifel/git-auto-commit-action@v4
