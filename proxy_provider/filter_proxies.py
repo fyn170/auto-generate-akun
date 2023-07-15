@@ -5,10 +5,11 @@ with open('free-akun-id.yaml', 'r') as file:
 
 proxies = data['proxies']
 
-filtered_proxies = []
-for proxy in proxies:
-    if proxy.get('type') in ['vmess', 'trojan'] and proxy.get('network') == 'ws' and proxy.get('country') == '🇮🇩':
-        filtered_proxies.append(proxy)
+filtered_proxies = [proxy for proxy in proxies if (
+    proxy.get('type') in ['vmess', 'trojan'] and
+    proxy.get('network') == 'ws' and
+    proxy.get('country') == '🇮🇩'
+)]
 
 data['proxies'] = filtered_proxies
 
