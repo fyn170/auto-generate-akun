@@ -23,6 +23,7 @@ jobs:
           sed -i '1i proxies:' akun.txt
           sed -i '/SG-/!d' akun.txt
           mv akun.txt free-akun.yaml
+          sed -i '1i proxies:' free-akun.yaml
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
         with:
