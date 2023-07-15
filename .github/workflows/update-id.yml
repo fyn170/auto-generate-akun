@@ -20,11 +20,9 @@ jobs:
         run: |
           echo "Downloading account list..."
           curl -s -L https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml > akun.txt
-
           echo "Filtering accounts..."
-          sed -i '/websocket.*\(trojan\|vmess\)/!d' akun.txt
-          sed -i '/🇮🇩/!d' akun.txt
-
+          sed -i -E '/websocket.*((trojan)|(vmess))/!d' akun.txt
+          sed -i -E '/🇮🇩/!d' akun.txt
           echo "Adding 'proxies:' header..."
           sed -i '1s/^/proxies:\n/' akun.txt
           mv akun.txt free-akun-id.yaml
