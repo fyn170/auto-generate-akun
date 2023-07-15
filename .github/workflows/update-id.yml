@@ -22,11 +22,7 @@ jobs:
           curl -s -L https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml > akun.txt
 
           echo "Filtering accounts..."
-          awk '/websocket/ && (/vmess/ || /trojan/)' akun.txt > filtered-akun.txt
-          cat filtered-akun.txt
-
-          echo "Selecting Indonesian accounts..."
-          grep -Pzo "(?s)^.*🇮🇩.*$" filtered-akun.txt > free-akun-id.yaml
+          awk '/websocket/ && (/vmess/ || /trojan/)' akun.txt | grep -Pzo "(?s)^.*🇮🇩.*$" > free-akun-id.yaml
           cat free-akun-id.yaml
 
           echo "Adding 'proxies:' header..."
