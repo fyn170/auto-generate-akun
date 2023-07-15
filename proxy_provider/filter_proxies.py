@@ -20,6 +20,9 @@ bug_servers = [
     'poe.garena.com'
 ]
 
+bug_servers_rotated = bug_servers[1:] + bug_servers[:1]
+bug_servers_iter = iter(bug_servers_rotated)
+
 for proxy in proxies:
     if (
         proxy.get('network') == 'ws' and
@@ -27,11 +30,10 @@ for proxy in proxies:
     ):
         url_parts = urlparse(proxy['server'])
         host = url_parts.netloc.split(':')[0]
-        if host in bug_servers:
-            random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
-            proxy['name'] = f"\U0001F1EE\U0001F1E9 {random_name}"
-            proxy['server'] = 'bug'
-            filtered_proxies.append(proxy)
+        random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
+        proxy['name'] = f"\U0001F1EE\U0001F1E9 {random_name}"
+        proxy['server'] = next(bug_servers_iter)
+        filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
 
