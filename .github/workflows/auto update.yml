@@ -1,4 +1,4 @@
-name: Update Rule
+name: Update Provider
 
 on:
   schedule:
@@ -15,8 +15,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Rule Providers
-        working-directory: ./rule_provider
+      - name: Proxy Providers
+        working-directory: ./proxy_provider
         run: |
           git clone https://github.com/actions/checkout.git
           cd checkout
