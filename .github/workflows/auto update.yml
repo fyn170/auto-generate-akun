@@ -19,8 +19,8 @@ jobs:
         run: |
           echo "Downloading akun list..."
           wget https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -O free-akun.yaml
-
-
+          sed -i '/- SG$/d' free-akun.yaml
+          sed -i '/- ID$/d' free-akun.yaml
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
