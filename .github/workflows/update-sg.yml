@@ -61,7 +61,7 @@ jobs:
                   url_parts = urlparse(proxy['server'])
                   host = url_parts.netloc.split(':')[0]
                   random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
-                  proxy['name'] = f"\U0001F1EE\U0001F1E9 {random_name}"
+                  proxy['name'] = f"\U0001F1F8\U0001F1EC {random_name}"
                   proxy['server'] = next(bug_servers_iter, '')
                   filtered_proxies.append(proxy)
 
