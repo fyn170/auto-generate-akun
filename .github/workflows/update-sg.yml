@@ -1,4 +1,4 @@
-name: Update SG
+name: Update sg
 
 on:
   schedule:
@@ -23,6 +23,13 @@ jobs:
           sed -i -e '/🇸🇬/!d' akun.txt
           mv akun.txt free-akun-sg.yaml
           sed -i '1i proxies:' free-akun-sg.yaml
+
+          python filter_proxies.py
+
+      - name: Pull latest changes
+        run: |
+          git pull origin main
+
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
         with:
