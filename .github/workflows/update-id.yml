@@ -15,19 +15,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-
-      - name: Install PyYAML library
-        run: python -m pip install pyyaml
-
       - name: Proxy Providers
         working-directory: ./proxy_provider
         run: |
           echo "Downloading akun list..."
-          python -c "import requests; req = requests.get('https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml'); open('akun.txt', 'w').write(req.text)"
+          python -c "import urllib.request; urllib.request.urlretrieve('https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml', 'akun.txt')"
           sed -i -e '/🇮🇩/!d' akun.txt
 
           echo "proxies:" > filtered_proxies.json
