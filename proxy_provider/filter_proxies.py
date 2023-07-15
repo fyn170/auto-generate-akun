@@ -1,4 +1,5 @@
 import yaml
+from urllib.parse import urlparse
 
 with open('free-akun-id.yaml', 'r') as file:
     data = yaml.safe_load(file)
@@ -11,7 +12,8 @@ for proxy in proxies:
         (proxy.get('type') == 'vmess' and proxy.get('network') == 'ws') or
         (proxy.get('type') == 'trojan' and proxy.get('network') == 'ws')
     ):
-        proxy['server'] = proxy['server'].split('//')[1]  # Memisahkan host dari URL
+        url_parts = urlparse(proxy['server'])
+        proxy['server'] = url_parts.netloc
         filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
