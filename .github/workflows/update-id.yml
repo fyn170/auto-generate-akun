@@ -25,12 +25,7 @@ jobs:
           sed -i -E '/🇮🇩/!d' akun.txt
           echo "Adding 'proxies:' header..."
           sed -i '1s/^/proxies:\n/' akun.txt
-          mv akun.txt ./free-akun-id.yaml
-
-      - name: Display File Contents
-        run: |
-          echo "Contents of free-akun-id.yaml:"
-          cat ./free-akun-id.yaml
+          mv akun.txt free-akun-id.yaml
 
       - name: Move File to Root Directory
         run: |
