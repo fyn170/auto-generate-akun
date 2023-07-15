@@ -7,7 +7,7 @@ proxies = data['proxies']
 
 filtered_proxies = []
 for proxy in proxies:
-    if proxy['type'] in ['trojan', 'vmess'] and proxy['network'] == 'ws':
+    if proxy.get('type') in ['trojan', 'vmess'] and proxy.get('network') == 'ws':
         filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
