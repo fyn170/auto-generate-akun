@@ -1,5 +1,4 @@
 import yaml
-from itertools import cycle
 from urllib.parse import urlparse
 
 # Daftar host untuk paket flex
@@ -23,11 +22,6 @@ edukasi_hosts = [
     "104.18.2.2"
 ]
 
-# Mengatur rotasi pada daftar host
-rotating_flex_hosts = cycle(flex_hosts)
-rotating_game_hosts = cycle(game_hosts)
-rotating_edukasi_hosts = cycle(edukasi_hosts)
-
 with open('free-akun-id.yaml', 'r') as file:
     data = yaml.safe_load(file)
 
@@ -41,18 +35,15 @@ for proxy in proxies:
         proxy.get('port') == 80
     ):
         url_parts = urlparse(proxy['server'])
-        proxy['server'] = url_parts.netloc
-        if proxy['server'].endswith('/'):
-            proxy['server'] = proxy['server'][:-1]  # Menghapus spasi di akhir URL
-        if proxy['server'] in flex_hosts:
-            rotating_host = next(rotating_flex_hosts)
-        elif proxy['server'] in game_hosts:
-            rotating_host = next(rotating_game_hosts)
-        elif proxy['server'] in edukasi_hosts:
-            rotating_host = next(rotating_edukasi_hosts)
+        host = url_parts.netloc.split(':')[0]
+        if host in flex_hosts:
+            proxy['server'] = host
+        elif host in game_hosts:
+            proxy['server'] = host
+        elif host in edukasi_hosts:
+            proxy['server'] = host
         else:
             continue
-        proxy['server'] = f"{proxy['server']}{rotating_host}"
         filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
