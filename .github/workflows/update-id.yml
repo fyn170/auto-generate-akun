@@ -69,12 +69,14 @@ jobs:
           with open('filtered_proxies.json', 'w') as f:
               yaml.dump(filtered_proxies, f, sort_keys=False)
 
-EOF
+
 
           mv akun.txt free-akun-id.yaml
           sed -i '1i proxies:' free-akun-id.yaml
 
           cat filtered_proxies.json >> free-akun-id.yaml
+
+EOF
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
