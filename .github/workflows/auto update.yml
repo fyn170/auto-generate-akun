@@ -23,7 +23,7 @@ jobs:
 
       - name: Filter Config
         run: |
-          grep -e 'SG🇸🇬\|ID🇮🇩' ./proxy_provider/free-akun.txt > ./proxy_provider/free-akun-filtered.txt
+          awk '/SG🇸🇬|ID🇮🇩/' ./proxy_provider/free-akun.txt > ./proxy_provider/free-akun-filtered.txt
 
       - name: Convert Config
         run: |
