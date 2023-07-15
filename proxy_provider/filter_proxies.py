@@ -14,6 +14,7 @@ for proxy in proxies:
     ):
         url_parts = urlparse(proxy['server'])
         host = url_parts.netloc.split(':')[0]
+        proxy['name'] = f"vpn-{host}"
         proxy['server'] = host
         filtered_proxies.append(proxy)
 
