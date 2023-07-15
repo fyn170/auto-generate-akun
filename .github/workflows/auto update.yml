@@ -12,11 +12,11 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: Rule Providers
         working-directory: ./rule_provider
-      - name: Checkout
         run: |
           git clone https://github.com/actions/checkout.git
           cd checkout
@@ -36,7 +36,7 @@ jobs:
         run: |
           sed -i 's/🇸🇬/SG/g' free-akun.yaml
           sed -i 's/🇮🇩/ID/g' free-akun.yaml
-          
+
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
         with:
@@ -44,6 +44,9 @@ jobs:
           repository: fyn170/auto-generate-akun
           event-type: auto-generate-akun
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update Free Akun
+      - name: Auto Commit
+        run: |
+          git config --global user.name 'fyn170'
+          git config --global user.email 'firyan170@gmail.com'
+          git commit -am "Update Free Akun"
+          git push
