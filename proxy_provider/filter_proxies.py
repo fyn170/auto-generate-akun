@@ -32,6 +32,7 @@ for proxy in proxies:
         host = url_parts.netloc.split(':')[0]
         random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
         proxy['name'] = f"\U0001F1F8\U0001F1EC {random_name}"
+        proxy['server'] = random.choice(bug_servers)
         filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
