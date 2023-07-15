@@ -27,26 +27,73 @@ with open('free-akun-id.yaml', 'r') as file:
 
 proxies = data.get('proxies', [])
 
-filtered_proxies = []
-for proxy in proxies:
-    if (
-        (proxy.get('type') == 'vmess' or proxy.get('type') == 'trojan') and
-        proxy.get('network') == 'ws' and
-        proxy.get('port') == 80
-    ):
-        url_parts = urlparse(proxy['server'])
-        host = url_parts.netloc.split(':')[0]
-        if host in flex_hosts:
-            proxy['server'] = host
-            filtered_proxies.append(proxy)
-        elif host in game_hosts:
-            proxy['server'] = host
-            filtered_proxies.append(proxy)
-        elif host in edukasi_hosts:
-            proxy['server'] = host
-            filtered_proxies.append(proxy)
+for host in flex_hosts:
+    proxy = {
+        'name': f"vpn-{host}",
+        'server': host,
+        'port': 80,
+        'type': 'vmess',
+        'uuid': '',
+        'alterId': 0,
+        'cipher': 'auto',
+        'tls': False,
+        'skip-cert-verify': True,
+        'servername': '',
+        'network': 'ws',
+        'ws-opts': {
+            'path': '/vmess',
+            'headers': {
+                'Host': host
+            }
+        },
+        'udp': True
+    }
+    proxies.append(proxy)
 
-data['proxies'] = filtered_proxies
+for host in game_hosts:
+    proxy = {
+        'name': f"vpn-{host}",
+        'server': host,
+        'port': 80,
+        'type': 'trojan',
+        'password': '',
+        'skip-cert-verify': True,
+        'sni': 'null',
+        'network': 'ws',
+        'ws-opts': {
+            'path': '/trojan',
+            'headers': {
+                'Host': host
+            }
+        },
+        'udp': True
+    }
+    proxies.append(proxy)
+
+for host in edukasi_hosts:
+    proxy = {
+        'name': f"vpn-{host}",
+        'server': host,
+        'port': 80,
+        'type': 'vmess',
+        'uuid': '',
+        'alterId': 0,
+        'cipher': 'auto',
+        'tls': False,
+        'skip-cert-verify': True,
+        'servername': '',
+        'network': 'ws',
+        'ws-opts': {
+            'path': '/vmess',
+            'headers': {
+                'Host': host
+            }
+        },
+        'udp': True
+    }
+    proxies.append(proxy)
+
+data['proxies'] = proxies
 
 with open('free-akun-id.yaml', 'w') as file:
     yaml.dump(data, file, sort_keys=False, default_flow_style=False, allow_unicode=True)
