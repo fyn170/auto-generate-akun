@@ -1,12 +1,21 @@
-name: Update Providers
+name: Update Rule
+
 on:
   schedule:
-    - cron: '0 17 * * *'    # Auto update rule 00.00 WIB (GMT+7)
+    - cron: '0 20 * * *'
   workflow_dispatch:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
+      - uses: actions/checkout@v3
+
+      - name: Rule Providers
+        working-directory: ./rule_provider
       - name: Checkout
         run: |
           git clone https://github.com/actions/checkout.git
@@ -27,11 +36,7 @@ jobs:
         run: |
           sed -i 's/🇸🇬/SG/g' free-akun.yaml
           sed -i 's/🇮🇩/ID/g' free-akun.yaml
-
-  trigger_bot_update:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
+          
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
         with:
