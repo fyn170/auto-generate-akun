@@ -33,7 +33,7 @@ jobs:
           filtered_proxies = []
 
           for proxy in proxies:
-              proxy_data = json.loads(proxy)
+              proxy_data = json.loads(proxy.strip())
               proxy_type = proxy_data.get('type')
 
               # Check if the proxy is vmess with websocket
