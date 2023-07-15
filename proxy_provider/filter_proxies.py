@@ -7,14 +7,30 @@ proxies = data.get('proxies', [])
 
 filtered_proxies = []
 for proxy in proxies:
-    if (
-        proxy.get('type') in ['vmess', 'trojan'] and
-        proxy.get('network') == 'ws' and
-        proxy.get('country') == '🇮🇩'
-    ):
+    if proxy.get('network') == 'ws':
         filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
 
 with open('free-akun-id.yaml', 'w') as file:
     yaml.dump(data, file)
+
+with open('akun.txt', 'w') as file:
+    for proxy in filtered_proxies:
+        file.write(f"{proxy['name']}:\n")
+        file.write(f"  type: {proxy['type']}\n")
+        file.write(f"  server: {proxy['server']}\n")
+        file.write(f"  port: {proxy['port']}\n")
+        file.write(f"  uuid: {proxy['uuid']}\n")
+        file.write(f"  alterId: {proxy.get('alterId', 0)}\n")
+        file.write(f"  cipher: {proxy.get('cipher', 'auto')}\n")
+        file.write(f"  tls: {proxy.get('tls', False)}\n")
+        file.write(f"  skip-cert-verify: {proxy.get('skip-cert-verify', False)}\n")
+        file.write(f"  network: {proxy['network']}\n")
+        file.write(f"  ws-opts:\n")
+        file.write(f"    path: {proxy['ws-opts']['path']}\n")
+        file.write(f"    headers:\n")
+        for header, value in proxy['ws-opts'].get('headers', {}).items():
+            file.write(f"      {header}: {value}\n")
+        file.write(f"  udp: {proxy.get('udp', False)}\n")
+        file.write("\n")
