@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 m9yLMiCx
-  server: sogood.linefriends.com
+- name: 🇸🇬 F93k28Da
+  server: cdn.noice.id
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 aCs11YO6
-  server: sogood.linefriends.com
+- name: 🇸🇬 cxD3J3dz
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
@@ -27,8 +27,8 @@ proxies:
     path: /v2ray
     headers:
       Host: 8fhq6a.aiossh.my.id
-- name: 🇸🇬 Ij6WW3if
-  server: sogood.linefriends.com
+- name: 🇸🇬 YbkF7LYa
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,8 +41,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 lFn1UrgB
-  server: www.noice.id
+- name: 🇸🇬 qkQo9btP
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 6808508f-c51c-4888-8370-d49e78a7f64e
@@ -55,8 +55,8 @@ proxies:
     path: /aws-china-media/QAcTKp3Ic-M.mp4
     headers:
       Host: sg1.amazonwebservicesss.com
-- name: 🇸🇬 hcfo1Ipz
-  server: quiz.vidio.com
+- name: 🇸🇬 37hxvIkj
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
@@ -69,8 +69,8 @@ proxies:
     path: 10ea07e1
     headers:
       Host: cdn.anycast.eu.org
-- name: 🇸🇬 xk25CATT
-  server: poe.garena.com
+- name: 🇸🇬 xfbIzfWH
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 91e2689d-4722-49ba-a285-a092f3f8dc04
@@ -83,8 +83,8 @@ proxies:
     path: /vmess
     headers:
       Host: 69.nrz.biz.id
-- name: 🇸🇬 9x0wRQYo
-  server: quiz.vidio.com
+- name: 🇸🇬 l1lWIU3c
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -97,7 +97,7 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 UoVVrgkL
+- name: 🇸🇬 afcX2Mvm
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -111,8 +111,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 uMpQ6ekK
-  server: poe.garena.com
+- name: 🇸🇬 OGyPzrJC
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -125,8 +125,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 JA6rMwHB
-  server: www.noice.id
+- name: 🇸🇬 58FU1aIz
+  server: cdn.noice.id
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -140,8 +140,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 cdCwmH62
-  server: cdn.appsflyer.com
+- name: 🇸🇬 Qstb6y1y
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
@@ -154,8 +154,8 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
-- name: 🇸🇬 NwyGV3XM
-  server: quiz.vidio.com
+- name: 🇸🇬 UMuwiPsY
+  server: cdn.noice.id
   port: 80
   type: vmess
   uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
@@ -168,8 +168,8 @@ proxies:
     path: /vmess
     headers:
       Host: sigma.jandapirang.my.id
-- name: 🇸🇬 UWS5XrSf
-  server: quiz.vidio.com
+- name: 🇸🇬 AsM2RXeN
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 19537db7-b002-4a60-8f91-59461bf56c3b
@@ -182,8 +182,8 @@ proxies:
     path: /zingfast.vn
     headers:
       Host: sg2.cloudfast.vn
-- name: 🇸🇬 xKYtKz3A
-  server: sogood.linefriends.com
+- name: 🇸🇬 bokVpPNK
+  server: www.noice.id
   port: 80
   type: vmess
   uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
@@ -196,8 +196,8 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       Host: cdncf.scyu.app
-- name: 🇸🇬 lvBcvmjg
-  server: poe.garena.com
+- name: 🇸🇬 D9sKLeJd
+  server: www.noice.id
   port: 80
   type: vmess
   uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
@@ -210,8 +210,8 @@ proxies:
     path: /xrayvws
     headers:
       Host: banterbener.my.id
-- name: 🇸🇬 975lAHNs
-  server: cdn.noice.id
+- name: 🇸🇬 dUXoINGZ
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -224,8 +224,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 lJDN76b4
-  server: cdn.noice.id
+- name: 🇸🇬 g3jNk7bk
+  server: www.noice.id
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
