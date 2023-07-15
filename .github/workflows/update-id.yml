@@ -20,6 +20,13 @@ jobs:
         run: |
           echo "Downloading akun list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt -o akun.txt
+
+      - name: Filter Accounts
+        run: |
+          sed -i '/^vmess/,/^$/!d' akun.txt
+          sed -i '/🇮🇩/!d' akun.txt
+          sed -i '/websocket/!d' akun.txt
+
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
         with:
