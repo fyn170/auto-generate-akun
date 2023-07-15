@@ -14,30 +14,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        
-      - name: Download Akun List
+
+      - name: Proxy Providers
         working-directory: ./proxy_provider
         run: |
           echo "Downloading akun list..."
-          curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt -o akun.txt
-
-      - name: Convert to YAML
-        working-directory: ./proxy_provider
-        run: |
-          echo "Converting to YAML..."
-          cat akun.txt | grep -E 'trojan|vmess.*ws=.*Indonesia' > akun.yaml
-
-      - name: Convert to JSON
-        working-directory: ./proxy_provider
-        run: |
-          echo "Converting to JSON..."
-          yq eval 'select(fileIndex == 0)' akun.yaml | yq eval --tojson > akun.json
-
-      - name: Convert to YAML (OpenClash)
-        working-directory: ./proxy_provider
-        run: |
-          echo "Converting to YAML (OpenClash)..."
-          yq eval -P akun.json > akun_openclash.yaml
+          curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o akun.txt
+          sed -i -e '/🇮🇩/!d' akun.txt
+          mv akun.txt free-akun-id.yaml
+          sed -i '1i proxies:' free-akun-id.yaml
+          sed -i '/^.*"type": "trojan".*$/!d' free-akun-id.yaml
+          sed -i '/^.*"type": "vmess".*$/!d' free-akun-id.yaml
+          sed -i '/^.*"network": "ws".*$/!d' free-akun-id.yaml
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
