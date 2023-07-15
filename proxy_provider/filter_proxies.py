@@ -3,12 +3,12 @@ import yaml
 with open('free-akun-id.yaml', 'r') as file:
     data = yaml.safe_load(file)
 
-proxies = data['proxies']
+proxies = data.get('proxies', [])
 
 filtered_proxies = []
 for proxy in proxies:
     if (
-        (proxy.get('type') == 'vmess' or proxy.get('type') == 'trojan') and
+        proxy.get('type') in ['vmess', 'trojan'] and
         proxy.get('network') == 'ws' and
         proxy.get('country') == '🇮🇩'
     ):
