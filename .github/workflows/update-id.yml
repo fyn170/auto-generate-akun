@@ -16,26 +16,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Proxy Providers
+        working-directory: ./proxy_provider
         run: |
           echo "Downloading akun list..."
           curl -s https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -o akun.txt
-          sed -i -e '/🇮🇩/!d' akun.txt
-          sed -i '1i proxies:' akun.txt
-          for i in {2..500}; do
-            mv akun.txt "nama_$i.txt"
-          done
-          
-      - name: Move to Root Directory
-        run: |
-          mv proxy_provider/nama_*.txt .
-          rm -rf proxy_provider
-
-      - name: Generate YAML File
-        run: |
-          echo 'proxies:' > free-akun-id.yaml
-          cat nama_*.txt >> free-akun-id.yaml
-          rm -rf nama_*.txt
-          
+          awk '/websocket/ && (/trojan/ || /vmess/)' akun.txt | grep '🇮🇩' > free-akun-id.yaml
+          sed -i '1i proxies:' free-akun-id.yaml
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
         with:
