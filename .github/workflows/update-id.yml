@@ -27,27 +27,26 @@ jobs:
           python3 - <<EOF
           import json
 
-          with open('akun.txt') as f:
-              proxies = f.readlines()
+          with open('proxies.json') as f:
+              proxies = json.load(f)
 
           filtered_proxies = []
 
           for proxy in proxies:
-              proxy_data = json.loads(proxy)
-              proxy_type = proxy_data.get('type')
+              proxy_type = proxy.get('type')
 
               # Check if the proxy is vmess with websocket
-              if proxy_type == 'vmess' and proxy_data.get('network') == 'ws':
+              if proxy_type == 'vmess' and proxy.get('network') == 'ws':
                   filtered_proxy = {
-                      'name': proxy_data.get('name'),
-                      'server': proxy_data.get('server'),
-                      'port': proxy_data.get('port'),
+                      'name': proxy.get('name'),
+                      'server': proxy.get('server'),
+                      'port': proxy.get('port'),
                       'type': 'vmess',
                       'network': 'ws',
                       'ws-opts': {
-                          'path': proxy_data.get('ws-opts', {}).get('path'),
+                          'path': proxy.get('ws-opts', {}).get('path'),
                           'headers': {
-                              'Host': proxy_data.get('ws-opts', {}).get('headers', {}).get('Host')
+                              'Host': proxy.get('ws-opts', {}).get('headers', {}).get('Host')
                           }
                       }
                   }
@@ -56,12 +55,12 @@ jobs:
               # Check if the proxy is trojan with websocket
               if proxy_type == 'trojan':
                   filtered_proxy = {
-                      'name': proxy_data.get('name'),
-                      'server': proxy_data.get('server'),
-                      'port': proxy_data.get('port'),
+                      'name': proxy.get('name'),
+                      'server': proxy.get('server'),
+                      'port': proxy.get('port'),
                       'type': 'trojan',
-                      'password': proxy_data.get('password'),
-                      'skip-cert-verify': proxy_data.get('skip-cert-verify')
+                      'password': proxy.get('password'),
+                      'skip-cert-verify': proxy.get('skip-cert-verify')
                   }
                   filtered_proxies.append(filtered_proxy)
 
