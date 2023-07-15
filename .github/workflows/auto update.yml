@@ -12,7 +12,8 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: Proxy Providers
         working-directory: ./proxy_provider
@@ -20,10 +21,14 @@ jobs:
           echo "Downloading akun list..."
           wget https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml -O free-akun.txt
 
+      - name: Filter Config
+        run: |
+          grep -e 'SG🇸🇬\|ID🇮🇩' ./proxy_provider/free-akun.txt > ./proxy_provider/free-akun-filtered.txt
+
       - name: Convert Config
         run: |
-          sed -i 's/🇸🇬/SG/g' ./proxy_provider/free-akun.yaml
-          sed -i 's/🇮🇩/ID/g' ./proxy_provider/free-akun.yaml
+          sed -i 's/🇸🇬/SG/g' ./proxy_provider/free-akun-filtered.txt
+          sed -i 's/🇮🇩/ID/g' ./proxy_provider/free-akun-filtered.txt
 
       - name: Trigger Bot Update
         uses: peter-evans/repository-dispatch@v1
