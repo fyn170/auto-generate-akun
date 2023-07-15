@@ -1,5 +1,5 @@
 proxies:
-- name: vpn-
+- name: 🇮🇩 soArYotO
   server: ''
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /sshkit/Arsham85231/6347d08022b91/
     headers:
       Host: zoom.us
-- name: vpn-
+- name: 🇮🇩 DTI5WhXm
   server: ''
   port: 80
   type: vmess
@@ -28,7 +28,7 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
-- name: vpn-
+- name: 🇮🇩 btigSwqc
   server: ''
   port: 80
   type: vmess
@@ -42,7 +42,7 @@ proxies:
     path: /vmess
     headers:
       Host: id-rysa-put-ra18n19xz.live
-- name: vpn-
+- name: 🇮🇩 UDJLJvdG
   server: ''
   port: 80
   type: vmess
@@ -56,7 +56,7 @@ proxies:
     path: /sshkit/Arsham85231/6347d08022b91/
     headers:
       Host: id-lb.vhax.net
-- name: vpn-
+- name: 🇮🇩 4LlFO63H
   server: ''
   port: 80
   type: vmess
