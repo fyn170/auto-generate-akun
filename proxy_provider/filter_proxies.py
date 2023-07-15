@@ -7,11 +7,8 @@ proxies = data.get('proxies', [])
 
 filtered_proxies = []
 for proxy in proxies:
-    if (
-        proxy.get('network') == 'ws' and
-        proxy.get('type') in ['vmess', 'trojan']
-    ):
-        filtered_proxies.append(proxy)
+    proxy.pop('server', None)  # Menghapus bagian IP dari entri proxies
+    filtered_proxies.append(proxy)
 
 data['proxies'] = filtered_proxies
 
