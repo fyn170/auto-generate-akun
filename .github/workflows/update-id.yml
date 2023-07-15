@@ -26,6 +26,7 @@ jobs:
 
       - name: Process Proxies
         run: |
+          cd proxy_provider
           python - <<EOF
           import yaml
           from urllib.parse import urlparse
