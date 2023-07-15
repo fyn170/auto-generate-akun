@@ -1,3 +1,4 @@
+proxies:
   - {'name': '🇸🇬SG-129.150.61.170-0008', 'server': '129.150.61.170', 'port': 29493, 'type': 'vmess', 'uuid': 'ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': '129.150.61.170'}}}
   - {'name': '🇸🇬SG-146.190.85.238-0031', 'server': 'trojan3.udpgw.com', 'port': 443, 'type': 'trojan', 'password': '8db1b560-019d-11ed-8bdf-1239d0255272', 'skip-cert-verify': False}
   - {'name': '🇸🇬SG-129.150.61.170-0096', 'server': '129.150.61.170', 'port': 29493, 'type': 'vmess', 'uuid': 'ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False, 'network': 'ws', 'ws-opts': {'path': '/'}}
