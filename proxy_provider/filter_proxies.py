@@ -1,5 +1,7 @@
 import yaml
 from urllib.parse import urlparse
+import random
+import string
 
 with open('free-akun-id.yaml', 'r') as file:
     data = yaml.safe_load(file)
@@ -14,7 +16,8 @@ for proxy in proxies:
     ):
         url_parts = urlparse(proxy['server'])
         host = url_parts.netloc.split(':')[0]
-        proxy['name'] = f"vpn-{host}"
+        random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
+        proxy['name'] = f"\U0001F1EE\U0001F1E9 {random_name}"
         proxy['server'] = host
         filtered_proxies.append(proxy)
 
