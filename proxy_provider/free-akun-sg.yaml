@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 eK2zHTk9
-  server: 104.17.3.81
+- name: 🇸🇬 OY6E9GA2
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,7 +13,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 8vbDunrP
+- name: 🇸🇬 387dgds1
   server: poe.garena.com
   port: 80
   type: vmess
@@ -27,8 +27,8 @@ proxies:
     path: /v2ray
     headers:
       Host: 8fhq6a.aiossh.my.id
-- name: 🇸🇬 ZhMOG4FC
-  server: quiz.vidio.com
+- name: 🇸🇬 QNPqrmWH
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,8 +41,22 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 ysLvmoeF
-  server: sogood.linefriends.com
+- name: 🇸🇬 4dliAl6A
+  server: www.noice.id
+  port: 80
+  type: vmess
+  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-v.sshmax.xyz
+- name: 🇸🇬 mTLgDNJw
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 6808508f-c51c-4888-8370-d49e78a7f64e
@@ -55,8 +69,8 @@ proxies:
     path: /aws-china-media/QAcTKp3Ic-M.mp4
     headers:
       Host: sg1.amazonwebservicesss.com
-- name: 🇸🇬 UpDJMNse
-  server: sogood.linefriends.com
+- name: 🇸🇬 e9IqheRe
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
@@ -69,8 +83,8 @@ proxies:
     path: 10ea07e1
     headers:
       Host: cdn.anycast.eu.org
-- name: 🇸🇬 HiZHlo0g
-  server: 104.17.3.81
+- name: 🇸🇬 EoFyC9f2
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 91e2689d-4722-49ba-a285-a092f3f8dc04
@@ -83,8 +97,8 @@ proxies:
     path: /vmess
     headers:
       Host: 69.nrz.biz.id
-- name: 🇸🇬 T4IGXyb1
-  server: cdn.noice.id
+- name: 🇸🇬 YFqi2Wgx
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -97,8 +111,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 sFuS9oau
-  server: zendesk1.grab.com
+- name: 🇸🇬 w16aXbX4
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -111,8 +125,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 zMErExbF
-  server: cdn.appsflyer.com
+- name: 🇸🇬 lCShWqUg
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -125,8 +139,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 AapKAr7K
-  server: sogood.linefriends.com
+- name: 🇸🇬 vMXFn2Vy
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -140,22 +154,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 gUJYOTFI
+- name: 🇸🇬 rZee6FWj
   server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg-v.sshmax.xyz
-- name: 🇸🇬 QWNmJ281
-  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
@@ -168,8 +168,8 @@ proxies:
     path: /vmess
     headers:
       Host: sigma.jandapirang.my.id
-- name: 🇸🇬 IsiotbIE
-  server: 104.17.3.81
+- name: 🇸🇬 sCMTSO8P
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 19537db7-b002-4a60-8f91-59461bf56c3b
@@ -182,8 +182,8 @@ proxies:
     path: /zingfast.vn
     headers:
       Host: sg2.cloudfast.vn
-- name: 🇸🇬 p9PLekOw
-  server: quiz.vidio.com
+- name: 🇸🇬 ZgF8KGLA
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
@@ -196,8 +196,8 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       Host: cdncf.scyu.app
-- name: 🇸🇬 1KtOceqT
-  server: zendesk1.grab.com
+- name: 🇸🇬 DECnD057
+  server: cdn.noice.id
   port: 80
   type: vmess
   uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
@@ -210,8 +210,8 @@ proxies:
     path: /xrayvws
     headers:
       Host: banterbener.my.id
-- name: 🇸🇬 XSdBZXeF
-  server: sogood.linefriends.com
+- name: 🇸🇬 fGsJqnT3
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -224,8 +224,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 dFarKC2x
-  server: poe.garena.com
+- name: 🇸🇬 rCO4AGJF
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
