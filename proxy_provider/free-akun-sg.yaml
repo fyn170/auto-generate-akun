@@ -1,6 +1,20 @@
 proxies:
-- name: 🇸🇬 HQGT83FR
-  server: poe.garena.com
+- name: 🇸🇬 gSZkbuws
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 9a8e24f4-5142-4282-845d-22bffefa1c1b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tms.dingtalk.com
+- name: 🇸🇬 VGTfu7tU
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 fDcZk4ji
-  server: 104.17.3.81
+- name: 🇸🇬 taR9talS
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
@@ -27,8 +41,8 @@ proxies:
     path: /v2ray
     headers:
       Host: 8fhq6a.aiossh.my.id
-- name: 🇸🇬 fjFhnTzq
-  server: 104.17.3.81
+- name: 🇸🇬 86ki2Lxl
+  server: cdn.noice.id
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,8 +55,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 v1T0PnlR
-  server: cdn.appsflyer.com
+- name: 🇸🇬 WqGJ42y7
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
@@ -55,8 +69,8 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
-- name: 🇸🇬 bRsF1WCn
-  server: 104.17.3.81
+- name: 🇸🇬 6VIDWdzp
+  server: cdn.noice.id
   port: 80
   type: vmess
   uuid: 6808508f-c51c-4888-8370-d49e78a7f64e
@@ -69,8 +83,8 @@ proxies:
     path: /aws-china-media/QAcTKp3Ic-M.mp4
     headers:
       Host: sg1.amazonwebservicesss.com
-- name: 🇸🇬 B74UGNV0
-  server: quiz.vidio.com
+- name: 🇸🇬 zFScCW15
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
@@ -83,22 +97,8 @@ proxies:
     path: 10ea07e1
     headers:
       Host: cdn.anycast.eu.org
-- name: 🇸🇬 V2i7PJsy
-  server: cdn.noice.id
-  port: 80
-  type: vmess
-  uuid: d42db037-61f3-4a1a-b86a-a4c2c75f8daf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: si4co.09vpn.com
-- name: 🇸🇬 iJDcvYrh
-  server: poe.garena.com
+- name: 🇸🇬 UdJ5Tc61
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 91e2689d-4722-49ba-a285-a092f3f8dc04
@@ -111,8 +111,8 @@ proxies:
     path: /vmess
     headers:
       Host: 69.nrz.biz.id
-- name: 🇸🇬 91MS9npK
-  server: poe.garena.com
+- name: 🇸🇬 EFF8OCSY
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -125,8 +125,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 sm7IJ2xe
-  server: cdn.noice.id
+- name: 🇸🇬 6SMZxeLk
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -139,8 +139,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 PGj50ZCY
-  server: sogood.linefriends.com
+- name: 🇸🇬 C4AGOZ3G
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -153,8 +153,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 XJkWXqOZ
-  server: cdn.appsflyer.com
+- name: 🇸🇬 Z4JTiV1E
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -168,8 +168,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 Xn5cYcOP
-  server: sogood.linefriends.com
+- name: 🇸🇬 JekEXbsC
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
@@ -182,8 +182,8 @@ proxies:
     path: /vmess
     headers:
       Host: sigma.jandapirang.my.id
-- name: 🇸🇬 iGRFkU0Y
-  server: cdn.appsflyer.com
+- name: 🇸🇬 X1szUWz2
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 19537db7-b002-4a60-8f91-59461bf56c3b
@@ -196,8 +196,8 @@ proxies:
     path: /zingfast.vn
     headers:
       Host: sg2.cloudfast.vn
-- name: 🇸🇬 D1pyhJD1
-  server: sogood.linefriends.com
+- name: 🇸🇬 XfWgVpld
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
@@ -210,8 +210,8 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       Host: cdncf.scyu.app
-- name: 🇸🇬 S2H8uPy3
-  server: sogood.linefriends.com
+- name: 🇸🇬 Dd4VilT7
+  server: www.noice.id
   port: 80
   type: vmess
   uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
@@ -224,7 +224,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: banterbener.my.id
-- name: 🇸🇬 raetNgdQ
+- name: 🇸🇬 Zf00B3ku
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -238,8 +238,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 X0rzufqY
-  server: cdn.appsflyer.com
+- name: 🇸🇬 ASq3x5nv
+  server: poe.garena.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -252,17 +252,3 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: 15.235.147.186
-- name: 🇸🇬 JpivmbjJ
-  server: cdn.noice.id
-  port: 80
-  type: vmess
-  uuid: f9c46bfc-63f5-46d3-9c80-413e98bb9c5e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
