@@ -41,10 +41,7 @@ jobs:
               'quiz.vidio.com',
               'zendesk1.grab.com',
               'cdn.appsflyer.com',
-              'www.noice.id',
-              'cdn.noice.id',
               'sogood.linefriends.com',
-              'poe.garena.com'
           ]
 
           for proxy in proxies:
