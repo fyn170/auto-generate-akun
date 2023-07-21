@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 pF3zdUBI
+- name: 🇮🇩 z75zS3Kq
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /sshkit/Arsham85231/6347d08022b91/
     headers:
       Host: zoom.us
-- name: 🇮🇩 GhE9ovbM
+- name: 🇮🇩 X5c4R1KJ
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -28,7 +28,7 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
-- name: 🇮🇩 TbskqPPI
+- name: 🇮🇩 0RDASB54
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -42,7 +42,7 @@ proxies:
     path: /vmess
     headers:
       Host: id-rysa-put-ra18n19xz.live
-- name: 🇮🇩 KfmFgo4b
+- name: 🇮🇩 YO4A0AMX
   server: www.noice.id
   port: 80
   type: vmess
@@ -56,7 +56,7 @@ proxies:
     path: /sshkit/Arsham85231/6347d08022b91/
     headers:
       Host: id-lb.vhax.net
-- name: 🇮🇩 slGTbwpH
+- name: 🇮🇩 T0mMUutj
   server: cdn.noice.id
   port: 80
   type: vmess
