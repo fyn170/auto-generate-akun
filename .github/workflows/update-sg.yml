@@ -41,7 +41,7 @@ jobs:
               'quiz.vidio.com',
               'zendesk1.grab.com',
               'cdn.appsflyer.com',
-              'sogood.linefriends.com',
+              'sogood.linefriends.com'
           ]
 
           for proxy in proxies:
