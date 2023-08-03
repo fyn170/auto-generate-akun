@@ -1,6 +1,20 @@
 proxies:
-- name: 🇸🇬 BnFN8cSb
-  server: zendesk1.grab.com
+- name: 🇸🇬 dR8njj9I
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: si4co.09vpn.com
+- name: 🇸🇬 Ke5yggLP
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 4CwBe8sN
+- name: 🇸🇬 onqA7g28
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -27,8 +41,8 @@ proxies:
     path: /v2ray
     headers:
       Host: 8fhq6a.aiossh.my.id
-- name: 🇸🇬 Zttdzt5u
-  server: cdn.appsflyer.com
+- name: 🇸🇬 7QiO7rEi
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,22 +55,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 VfqivbHB
+- name: 🇸🇬 AOdVqFEJ
   server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn.anycast.eu.org
-- name: 🇸🇬 hUbiXofy
-  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -69,8 +69,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 zfuz9Uj7
-  server: zendesk1.grab.com
+- name: 🇸🇬 JjLIpXqd
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -83,8 +83,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 pwNFnkbg
-  server: cdn.appsflyer.com
+- name: 🇸🇬 7MILix2V
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -97,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 gJBw50WU
-  server: quiz.vidio.com
+- name: 🇸🇬 ol8o1xGz
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -112,8 +112,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 raAAsSJe
-  server: quiz.vidio.com
+- name: 🇸🇬 NHGD3pSI
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
@@ -126,8 +126,8 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
-- name: 🇸🇬 i51jHcJs
-  server: sogood.linefriends.com
+- name: 🇸🇬 GlOMZLMv
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 19537db7-b002-4a60-8f91-59461bf56c3b
@@ -140,8 +140,8 @@ proxies:
     path: /zingfast.vn
     headers:
       Host: sg2.cloudfast.vn
-- name: 🇸🇬 gB5AugOd
-  server: sogood.linefriends.com
+- name: 🇸🇬 nG3kybv1
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
@@ -154,8 +154,8 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       Host: cdncf.scyu.app
-- name: 🇸🇬 17KCITB5
-  server: 104.17.3.81
+- name: 🇸🇬 Ad6YVj6e
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: e52d79bb-b26e-4416-ac8a-7755176299a6
@@ -168,8 +168,8 @@ proxies:
     path: /9SCqOah8/
     headers:
       Host: cdn.chigua.tk
-- name: 🇸🇬 slQZMk0o
-  server: zendesk1.grab.com
+- name: 🇸🇬 6XSMegB6
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -182,8 +182,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 uF4F2i7n
-  server: quiz.vidio.com
+- name: 🇸🇬 9islQRjY
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -196,18 +196,18 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: 15.235.147.186
-- name: 🇸🇬 oCb9cVhQ
+- name: 🇸🇬 1dmHHZjt
   server: 104.17.3.81
   port: 80
   type: vmess
-  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  uuid: 834d6d9a-08ab-4c47-967b-7a6bf6ec3077
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: ddp2.1808.cf
+  servername: sgvip.ph5gvpn.online
   network: ws
   ws-opts:
-    path: 4a47e680
+    path: /ph5gvpn
     headers:
-      Host: cdn.anycast.eu.org
+      Host: sgvip.ph5gvpn.online
