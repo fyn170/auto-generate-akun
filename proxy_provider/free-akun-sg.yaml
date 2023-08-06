@@ -1,9 +1,9 @@
 proxies:
-- name: 🇸🇬 omHjgQ7a
-  server: sogood.linefriends.com
+- name: 🇸🇬 moD4sFcd
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
-  uuid: b7eb3ffd-62fe-496d-9bb2-edd21ed877f2
+  uuid: a0b1adec-ee6e-4772-b62a-0c3745290d03
   alterId: 0
   cipher: auto
   tls: false
@@ -12,51 +12,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: a13.2e5bf271.win
-- name: 🇸🇬 wuf0PukM
-  server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: b7eb3ffd-62fe-496d-9bb2-edd21ed877f2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a15.2e5bf271.win
-- name: 🇸🇬 74Daw4I1
-  server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: b7eb3ffd-62fe-496d-9bb2-edd21ed877f2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a16.2e5bf271.win
-- name: 🇸🇬 B6xp2TD6
-  server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: b7eb3ffd-62fe-496d-9bb2-edd21ed877f2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a14.2e5bf271.win
-- name: 🇸🇬 alAt3Hyr
-  server: quiz.vidio.com
+      Host: media.amazonwebservices.com
+- name: 🇸🇬 1hL9798H
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -69,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 qDpKkKUh
-  server: 104.17.3.81
+- name: 🇸🇬 ismqMpoj
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
@@ -83,8 +41,22 @@ proxies:
     path: /v2ray
     headers:
       Host: 8fhq6a.aiossh.my.id
-- name: 🇸🇬 nUFTJE6o
-  server: 104.17.3.81
+- name: 🇸🇬 PUu44Xju
+  server: sogood.linefriends.com
+  port: 80
+  type: vmess
+  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 4a47e680
+    headers:
+      Host: ddp2.1808.cf
+- name: 🇸🇬 qTcWZJFv
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -97,8 +69,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 fkkIrZiA
-  server: cdn.appsflyer.com
+- name: 🇸🇬 6lSbFK7k
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 2a19d486-c6b9-417f-a8a1-a5f841e87879
@@ -111,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: sg02.vipnode.online
-- name: 🇸🇬 6SQRtTkB
-  server: cdn.appsflyer.com
+- name: 🇸🇬 Pa87o7DX
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 2a19d486-c6b9-417f-a8a1-a5f841e87879
@@ -125,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: sg01.vipnode.online
-- name: 🇸🇬 OkmRKmW4
-  server: 104.17.3.81
+- name: 🇸🇬 TDNuUPoq
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 2a19d486-c6b9-417f-a8a1-a5f841e87879
@@ -139,8 +111,8 @@ proxies:
     path: /
     headers:
       Host: sg03.vipnode.online
-- name: 🇸🇬 OhfwNWgN
-  server: 104.17.3.81
+- name: 🇸🇬 LigHnWHk
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 2a19d486-c6b9-417f-a8a1-a5f841e87879
@@ -153,8 +125,8 @@ proxies:
     path: /
     headers:
       Host: sg04.vipnode.online
-- name: 🇸🇬 XpB9lSlO
-  server: sogood.linefriends.com
+- name: 🇸🇬 DkOvJC4u
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -167,8 +139,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 GOxfEnCU
-  server: 104.17.3.81
+- name: 🇸🇬 45fNPSvy
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -181,8 +153,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 5RhPTS6g
-  server: sogood.linefriends.com
+- name: 🇸🇬 UHk7JKbr
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -195,8 +167,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 SM6EXSDF
-  server: sogood.linefriends.com
+- name: 🇸🇬 d5Kz64hg
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -210,8 +182,36 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 VxUsQr27
-  server: quiz.vidio.com
+- name: 🇸🇬 6KqzMYjD
+  server: sogood.linefriends.com
+  port: 80
+  type: vmess
+  uuid: b7eb3ffd-62fe-496d-9bb2-edd21ed877f2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: a16.2e5bf271.win
+- name: 🇸🇬 47NYoXUl
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: a0b1adec-ee6e-4772-b62a-0c3745290d03
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aws-china-media/QAcTKp3Ic-M.mp4
+    headers:
+      Host: media.amazonwebservices.com
+- name: 🇸🇬 JVVH9Wg0
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
@@ -224,8 +224,8 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
-- name: 🇸🇬 6zPrcK2H
-  server: quiz.vidio.com
+- name: 🇸🇬 osRftsi4
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 19537db7-b002-4a60-8f91-59461bf56c3b
@@ -238,8 +238,36 @@ proxies:
     path: /zingfast.vn
     headers:
       Host: sg2.cloudfast.vn
-- name: 🇸🇬 AEbmYDrw
+- name: 🇸🇬 Bwmx5OSd
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      Host: cdncf.scyu.app
+- name: 🇸🇬 UADMM90w
   server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: e52d79bb-b26e-4416-ac8a-7755176299a6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /9SCqOah8/
+    headers:
+      Host: cdn.chigua.tk
+- name: 🇸🇬 LmSVgNAR
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -252,8 +280,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 3aAz1Q89
-  server: cdn.appsflyer.com
+- name: 🇸🇬 zzf1Yg2W
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -266,3 +294,47 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: 15.235.147.186
+- name: 🇸🇬 lw8T3kGU
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: a0b1adec-ee6e-4772-b62a-0c3745290d03
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: media.amazonwebservices.com
+  network: ws
+  ws-opts:
+    path: /aws-china-media/QAcTKp3Ic-M.mp4
+    headers:
+      Host: sg2.amazonwebservicesss.com
+- name: 🇸🇬 XJMVMjLK
+  server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: 834d6d9a-08ab-4c47-967b-7a6bf6ec3077
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sgvip.ph5gvpn.online
+  network: ws
+  ws-opts:
+    path: /ph5gvpn
+    headers:
+      Host: sgvip.ph5gvpn.online
+- name: 🇸🇬 WjwIc0LD
+  server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /2TokGE9A/
+    headers:
+      Host: cdn.chigua.tk
