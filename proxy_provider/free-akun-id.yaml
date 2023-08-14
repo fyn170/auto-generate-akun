@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 oQNDa1Xv
+- name: 🇮🇩 ottxuyPg
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /sshkit/Arsham85231/6347d08022b91/
     headers:
       Host: zoom.us
-- name: 🇮🇩 Uh6DnyTs
+- name: 🇮🇩 hnii6yCB
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -28,7 +28,7 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
-- name: 🇮🇩 5tjBWrN3
+- name: 🇮🇩 FO74jVbJ
   server: cdn.appsflyer.com
   port: 80
   type: vmess
