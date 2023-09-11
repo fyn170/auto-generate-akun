@@ -1,6 +1,34 @@
 proxies:
-- name: 🇮🇩 nUhGL3As
+- name: 🇮🇩 cIKEaY7n
   server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /fastssh/hkaa0/6315d6fd8ece0/
+    headers:
+      Host: id-herza.v2-ray.com
+- name: 🇮🇩 UeK366kn
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /fastssh/hkaa0/6315d6fd8ece0/
+    headers:
+      Host: id-herza.v2-ray.com
+- name: 🇮🇩 OZi5jD5U
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -13,8 +41,8 @@ proxies:
     path: /sshkit/Arsham85231/6347d08022b91/
     headers:
       Host: zoom.us
-- name: 🇮🇩 6qpaZIFC
-  server: zendesk1.grab.com
+- name: 🇮🇩 WAA8qWbI
+  server: www.noice.id
   port: 80
   type: vmess
   uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
@@ -28,8 +56,8 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
-- name: 🇮🇩 zFKVx85a
-  server: cdn.appsflyer.com
+- name: 🇮🇩 iDIOdOfv
+  server: cdn.noice.id
   port: 80
   type: vmess
   uuid: 22ad3dff-66b4-4e69-b2db-bf43c4614761
