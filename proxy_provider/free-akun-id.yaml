@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 AMyRa7q9
+- name: 🇮🇩 4s67nefp
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -14,7 +14,7 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
-- name: 🇮🇩 cZCo5m4r
+- name: 🇮🇩 l3GYQVMt
   server: zendesk1.grab.com
   port: 80
   type: vmess
