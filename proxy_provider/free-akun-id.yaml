@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 z4FsCtc1
+- name: 🇮🇩 Tq4TXLss
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /whatever/vmess
     headers:
       Host: id.uzzumaki.cloud
-- name: 🇮🇩 cByS40wm
+- name: 🇮🇩 KthZ1W72
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -28,7 +28,7 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
-- name: 🇮🇩 d0kP7sOT
+- name: 🇮🇩 bdvpKqUr
   server: cdn.appsflyer.com
   port: 80
   type: vmess
