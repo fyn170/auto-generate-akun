@@ -1,23 +1,9 @@
 proxies:
-- name: 🇸🇬 xFJg2kci
-  server: sogood.linefriends.com
+- name: 🇸🇬 qdFZanU2
+  server: 104.17.3.81
   port: 80
   type: vmess
-  uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /fastssh/fghhh/634197c4cdf81/
-    headers:
-      Host: sg-ovh1.v2-ray.com
-- name: 🇸🇬 X68yCqnX
-  server: zendesk1.grab.com
-  port: 80
-  type: vmess
-  uuid: fe7e765d-834c-4bd3-b262-2ad01db6e25f
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
   alterId: 0
   cipher: auto
   tls: false
@@ -26,9 +12,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: mofaxueyuansg.360ddns.online
-- name: 🇸🇬 ibhkdWZf
-  server: quiz.vidio.com
+      Host: si4co.09vpn.com
+- name: 🇸🇬 rVfiTcOg
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -41,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 ZoebsrFg
+- name: 🇸🇬 mWRYD1cj
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -55,22 +41,22 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 xxM2TZ7I
-  server: quiz.vidio.com
+- name: 🇸🇬 NcrSu5qQ
+  server: sogood.linefriends.com
   port: 80
   type: vmess
-  uuid: 3c906bab-3b86-4fa2-b7a3-f2c60e159db4
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess/
+    path: /
     headers:
-      Host: si2.09vpn.com
-- name: 🇸🇬 1hRmmyJD
-  server: quiz.vidio.com
+      Host: cdn.anycast.eu.org
+- name: 🇸🇬 JGXFhGTt
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
@@ -83,22 +69,8 @@ proxies:
     path: /2TokGE9A/
     headers:
       Host: cdn.chigua.tk
-- name: 🇸🇬 f6FTgxlS
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /fastssh/fghhh/634197c4cdf81/
-    headers:
-      Host: sg-ovh1.v2-ray.com
-- name: 🇸🇬 eOBwdFFL
-  server: 104.17.3.81
+- name: 🇸🇬 0HL9fwyB
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -111,7 +83,7 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 tLWCL3qQ
+- name: 🇸🇬 pgKGuPgS
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -125,8 +97,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 HeGLYQXj
-  server: cdn.appsflyer.com
+- name: 🇸🇬 PdDaCY46
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -139,8 +111,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 xXNWFNbZ
-  server: sogood.linefriends.com
+- name: 🇸🇬 ANic6jDf
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -154,8 +126,22 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 8TvCnlfi
+- name: 🇸🇬 1k3DVJWE
   server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: si4co.09vpn.com
+- name: 🇸🇬 YRA7ph5p
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
@@ -168,8 +154,8 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
-- name: 🇸🇬 outY0OTv
-  server: quiz.vidio.com
+- name: 🇸🇬 dqNNhgxI
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -182,8 +168,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 RcGoXcPU
-  server: quiz.vidio.com
+- name: 🇸🇬 6NcsBAwv
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -196,3 +182,17 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: 15.235.147.186
+- name: 🇸🇬 eD3Lm6KD
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 4a47e680
+    headers:
+      Host: cdn.anycast.eu.org
