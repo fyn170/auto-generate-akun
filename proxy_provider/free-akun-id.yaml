@@ -1,9 +1,9 @@
 proxies:
-- name: 🇮🇩 Ck39klKr
+- name: 🇮🇩 4J6IbhOK
   server: quiz.vidio.com
   port: 80
   type: vmess
-  uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+  uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
   alterId: 0
   cipher: auto
   tls: false
@@ -13,7 +13,7 @@ proxies:
     path: /vmess
     headers:
       Host: id-v.sshmax.xyz
-- name: 🇮🇩 T3f758f3
+- name: 🇮🇩 MdMeDfSk
   server: zendesk1.grab.com
   port: 80
   type: vmess
