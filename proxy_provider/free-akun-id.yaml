@@ -1,19 +1,20 @@
 proxies:
-- name: 🇮🇩 LchI6i09
+- name: 🇮🇩 kGvJhzan
   server: quiz.vidio.com
   port: 80
   type: vmess
-  uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
+  uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
+  servername: id-v.sshmax.xyz
   network: ws
   ws-opts:
-    path: /vmess
+    path: /
     headers:
       Host: id-v.sshmax.xyz
-- name: 🇮🇩 QOhbJV1D
+- name: 🇮🇩 i7ff70Rt
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -28,3 +29,18 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
+- name: 🇮🇩 w41TsLzV
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: id-v.sshmax.xyz
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id-v.sshmax.xyz
