@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 yKrSVn3d
+- name: 🇸🇬 lxgodvBc
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -10,10 +10,38 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /sshkit/Ertusg86/635014638c264/
+    path: /sshkit/Deroxbxb7/63530b4859a5f/
     headers:
-      Host: 15.235.147.186
-- name: 🇸🇬 jWyGBLny
+      Host: zoom.us
+- name: 🇸🇬 vuLGGLDr
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: warp.chigua.tk
+- name: 🇸🇬 f73WNc3c
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: warp.chigua.tk
+- name: 🇸🇬 CE8gzH5z
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -27,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 PI8aeEjZ
-  server: sogood.linefriends.com
+- name: 🇸🇬 nw5S4Flp
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,22 +69,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 mrkYMpF0
-  server: cdn.appsflyer.com
-  port: 80
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: warp.chigua.tk
-- name: 🇸🇬 6wWJhsPj
-  server: cdn.appsflyer.com
+- name: 🇸🇬 IUsXewpS
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -69,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 THMi5gwL
-  server: cdn.appsflyer.com
+- name: 🇸🇬 ZOvMkns4
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -83,8 +97,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 DL8Lv5i3
-  server: zendesk1.grab.com
+- name: 🇸🇬 agw6spMI
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -97,8 +111,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 0gU05XRn
-  server: quiz.vidio.com
+- name: 🇸🇬 fhsrmN3A
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -112,8 +126,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 SSYqZDyB
-  server: quiz.vidio.com
+- name: 🇸🇬 8v1Tr0VU
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
@@ -126,8 +140,8 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
-- name: 🇸🇬 XBt2Gtna
-  server: cdn.appsflyer.com
+- name: 🇸🇬 1zGVzlTg
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -140,8 +154,22 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 OHUDDVlc
-  server: zendesk1.grab.com
+- name: 🇸🇬 Gvg97G1I
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+    headers:
+      Host: 15.235.147.186
+- name: 🇸🇬 ko4h434l
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
@@ -154,8 +182,8 @@ proxies:
     path: /2TokGE9A/
     headers:
       Host: cdn.chigua.tk
-- name: 🇸🇬 BJgLQKGJ
-  server: zendesk1.grab.com
+- name: 🇸🇬 HPhP4n9H
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
