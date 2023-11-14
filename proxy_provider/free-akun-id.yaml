@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 ztHbO4TB
+- name: 🇮🇩 s66y1JiZ
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /vmess-ws
     headers:
       Host: sgp.zxv.biz.id
-- name: 🇮🇩 AkTyRDEg
+- name: 🇮🇩 XrZ9jsO3
   server: zendesk1.grab.com
   port: 80
   type: vmess
