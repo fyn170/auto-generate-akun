@@ -1,18 +1,6 @@
 proxies:
-- name: 🇮🇩 GGNUJgK8
+- name: 🇮🇩 VIScEunl
   server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: 781adf87-0afa-420c-875f-879162a2bce1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇮🇩 PtfE00Wc
-  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: e0e09477-10ed-4d4a-98ad-67c2afb995d8
@@ -25,8 +13,8 @@ proxies:
     path: /vmess-ws
     headers:
       Host: sgp.zxv.biz.id
-- name: 🇮🇩 QSpL1eiy
-  server: cdn.appsflyer.com
+- name: 🇮🇩 A9UJ7GCl
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
@@ -40,8 +28,8 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
-- name: 🇮🇩 pjJvg7dH
-  server: www.noice.id
+- name: 🇮🇩 tLHu6JIf
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 781adf87-0afa-420c-875f-879162a2bce1
