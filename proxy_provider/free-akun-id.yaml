@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 kvB9sCY9
+- name: 🇮🇩 Vlr6xp6s
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -14,3 +14,15 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
+- name: 🇮🇩 Kn1EgnPT
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: 781adf87-0afa-420c-875f-879162a2bce1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
