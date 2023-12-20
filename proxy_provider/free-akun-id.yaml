@@ -1,18 +1,6 @@
 proxies:
-- name: 🇮🇩 3vrjmaM3
+- name: 🇮🇩 57rIvGRc
   server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇮🇩 eVdKSh19
-  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
@@ -25,8 +13,8 @@ proxies:
     path: /vmess
     headers:
       Host: id-v.sshmax.xyz
-- name: 🇮🇩 Xy3qbTRN
-  server: cdn.appsflyer.com
+- name: 🇮🇩 LfKT4NVC
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
@@ -39,7 +27,19 @@ proxies:
     path: /vmess
     headers:
       Host: 103.157.27.148
-- name: 🇮🇩 rWh5N1q2
+- name: 🇮🇩 90I1moET
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇮🇩 lJq0axDp
   server: www.noice.id
   port: 80
   type: vmess
