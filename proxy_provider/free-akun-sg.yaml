@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 JZXZQQWA
-  server: quiz.vidio.com
+- name: 🇸🇬 EKzNJ9tv
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 JH9mDfc4
-  server: 104.17.3.81
+- name: 🇸🇬 MFWrp2Uc
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -27,92 +27,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 2oAdf8bH
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: caonimashabiwanyi5.daxiongda.top
-- name: 🇸🇬 flVHHEZ1
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: caonimashabiwanyi5.daxiongda.top
-- name: 🇸🇬 a2BzYTCL
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg03.hajimihajimihajimi.online
-- name: 🇸🇬 EyweTJ87
-  server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg2.safepn.net
-- name: 🇸🇬 FvY6pJbs
-  server: cdn.appsflyer.com
-  port: 80
-  type: vmess
-  uuid: f686f0c9-e69c-412c-bc5d-cb296705a2c4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.tesla.com
-- name: 🇸🇬 gJe44qlu
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kr03.36routes.online
-- name: 🇸🇬 0juXz2eL
-  server: 104.17.3.81
+- name: 🇸🇬 csTPNdLB
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
@@ -125,77 +41,21 @@ proxies:
     path: /
     headers:
       Host: kr01.travisdependable.online
-- name: 🇸🇬 wh6ZbuIC
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kr01.travisdependable.online
-- name: 🇸🇬 QHMZtXye
-  server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kr03.36routes.online
-- name: 🇸🇬 11mh7vp8
+- name: 🇸🇬 2PHbJGqB
   server: zendesk1.grab.com
   port: 80
   type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  alterId: 0
+  uuid: 21bb35ea-4e67-38c1-8d01-67fb2d64aa12
+  alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /download
     headers:
-      Host: kr03.36routes.online
-- name: 🇸🇬 W4QfC2Pm
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kr03.36routes.online
-- name: 🇸🇬 Ul5cJOPB
-  server: zendesk1.grab.com
-  port: 80
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kr03.36routes.online
-- name: 🇸🇬 fQon0JZs
+      Host: us.cdn.shjieke.com
+- name: 🇸🇬 MVXCAxTI
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -209,8 +69,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 aWKmeBFf
-  server: cdn.appsflyer.com
+- name: 🇸🇬 Ir8q62Uz
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -223,8 +83,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 hhBrfWOT
-  server: sogood.linefriends.com
+- name: 🇸🇬 p7AR2WGO
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -237,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 MKNNKgMX
-  server: 104.17.3.81
+- name: 🇸🇬 khT2ioWZ
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
@@ -251,35 +111,22 @@ proxies:
     path: /
     headers:
       Host: warp.chigua.tk
-- name: 🇸🇬 9eEyj8nD
-  server: 104.17.3.81
+- name: 🇸🇬 k23YebVS
+  server: sogood.linefriends.com
   port: 80
   type: vmess
-  uuid: ab8c009c-3ff5-40f0-83c4-43fae2d66639
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
+  servername: sg2.safepn.net
   network: ws
   ws-opts:
-    path: /SACHI
+    path: /
     headers:
-      Host: group.vpnking.online
-- name: 🇸🇬 sJ2674lw
-  server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sshkit/Ertusg86/635014638c264/
-    headers:
-      Host: zoom.us
-- name: 🇸🇬 YyrrW0PN
+      Host: sg2.safepn.net
+- name: 🇸🇬 QUXJapPY
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -292,9 +139,23 @@ proxies:
   ws-opts:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
+      Host: zoom.us
+- name: 🇸🇬 4yMLI3Yo
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+    headers:
       Host: 15.235.147.186
-- name: 🇸🇬 IP6ZPGzr
-  server: zendesk1.grab.com
+- name: 🇸🇬 kwlXcfB2
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
