@@ -1,6 +1,20 @@
 proxies:
-- name: 🇸🇬 oBquFTn1
-  server: sogood.linefriends.com
+- name: 🇸🇬 TEfGZYCX
+  server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: b363045d-0589-4cf3-8d02-209e406853c5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg02.handsomequinlan.online
+- name: 🇸🇬 23FmMUIn
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 LESwvrj7
+- name: 🇸🇬 POP6p4vA
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -27,8 +41,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 Yz6VzyKS
-  server: 104.17.3.81
+- name: 🇸🇬 tYyCB1dg
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -41,7 +55,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 VokxseCx
+- name: 🇸🇬 kSvUm9h8
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -55,8 +69,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 hkTr1Gvf
-  server: cdn.appsflyer.com
+- name: 🇸🇬 9Xv109vI
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
@@ -69,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: warp.chigua.tk
-- name: 🇸🇬 AnKpWSPw
-  server: quiz.vidio.com
+- name: 🇸🇬 w2Q1OsiO
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -84,7 +98,21 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 rcLXyBo9
+- name: 🇸🇬 Tql6hkS6
+  server: sogood.linefriends.com
+  port: 80
+  type: vmess
+  uuid: b363045d-0589-4cf3-8d02-209e406853c5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg02.handsomequinlan.online
+- name: 🇸🇬 7AoymBE8
   server: quiz.vidio.com
   port: 80
   type: vmess
