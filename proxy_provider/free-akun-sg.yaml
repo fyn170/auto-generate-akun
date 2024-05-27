@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 D7ogUJHU
-  server: quiz.vidio.com
+- name: 🇸🇬 BQrWgtqF
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 326e1c01-dfd7-4265-a086-be64e17c63e6
@@ -13,7 +13,7 @@ proxies:
     path: /giare
     headers:
       Host: Livestream2.tv360.vn
-- name: 🇸🇬 sn6A5Pq3
+- name: 🇸🇬 LDlPMigl
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -27,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 Fl2DlQET
+- name: 🇸🇬 8wVoRC0y
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -41,8 +41,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 NIek8ieC
-  server: zendesk1.grab.com
+- name: 🇸🇬 B0hLg4O0
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 7YRKTTWR
-  server: quiz.vidio.com
+- name: 🇸🇬 y5xWGkxz
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -69,8 +69,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 todJ09VX
-  server: 104.17.3.81
+- name: 🇸🇬 UfFCRupg
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -83,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 IeAF4o6B
-  server: sogood.linefriends.com
+- name: 🇸🇬 eWxUZotq
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -98,8 +98,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 CRYMzRkz
-  server: 104.17.3.81
+- name: 🇸🇬 LDNEW3jn
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -112,8 +112,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 HwOKvwrZ
-  server: zendesk1.grab.com
+- name: 🇸🇬 xmpGPHuZ
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
