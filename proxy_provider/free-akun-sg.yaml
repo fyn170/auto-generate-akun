@@ -1,20 +1,6 @@
 proxies:
-- name: 🇸🇬 U3Bo119V
+- name: 🇸🇬 1kfmJn8I
   server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vpngiare.net
-    headers:
-      Host: vpngiare.akamaized.net
-- name: 🇸🇬 u4jlMgjc
-  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
@@ -28,8 +14,8 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 H3CqVjwq
-  server: 104.17.3.81
+- name: 🇸🇬 9DOXHDji
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -42,8 +28,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 wKLo7au2
-  server: 104.17.3.81
+- name: 🇸🇬 hyw7qLzb
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -56,7 +42,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 W6WNnGgX
+- name: 🇸🇬 8jwIRDZl
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -70,8 +56,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 ZYQT2yZ7
-  server: quiz.vidio.com
+- name: 🇸🇬 ew0HCzbU
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -84,8 +70,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 1FvWjP7m
-  server: 104.17.3.81
+- name: 🇸🇬 4X9ceocd
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -98,7 +84,7 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 vKr1j7sm
+- name: 🇸🇬 ryPWtrJX
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -113,21 +99,7 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 HTVOL8p9
-  server: cdn.appsflyer.com
-  port: 80
-  type: vmess
-  uuid: 1f9b54af-3ab1-48c8-b58c-59d8d78277af
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg4g.xn--vhq70hxyat50h6wk.com
-- name: 🇸🇬 EO1nfzsx
+- name: 🇸🇬 bRxSzSTo
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -141,8 +113,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 dNi84zGC
-  server: zendesk1.grab.com
+- name: 🇸🇬 dZkNsSbI
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
