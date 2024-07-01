@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 8wn274O6
-  server: cdn.appsflyer.com
+- name: 🇸🇬 oWGRtZph
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
@@ -13,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: khiemdz.akamaized.net
-- name: 🇸🇬 DgU6HQpV
-  server: 104.17.3.81
+- name: 🇸🇬 BUV4Smcp
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -27,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 6PglH9UA
+- name: 🇸🇬 SD5lkXO0
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -41,8 +41,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 JH07d7nU
-  server: sogood.linefriends.com
+- name: 🇸🇬 hPxqt4yp
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 hUxtcyqn
-  server: cdn.appsflyer.com
+- name: 🇸🇬 kadWqy0O
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -69,8 +69,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 qwFAvyuU
-  server: 104.17.3.81
+- name: 🇸🇬 6eB3MMLe
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -83,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 15wY92SG
-  server: sogood.linefriends.com
+- name: 🇸🇬 dpSgqMeT
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -98,8 +98,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 B5CZN1hz
-  server: quiz.vidio.com
+- name: 🇸🇬 o5niHoSi
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -112,7 +112,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 H7BYGOy6
+- name: 🇸🇬 romd0eun
   server: sogood.linefriends.com
   port: 80
   type: vmess
