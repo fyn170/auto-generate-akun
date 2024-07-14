@@ -1,20 +1,6 @@
 proxies:
-- name: 🇮🇩 KZK7uBo7
+- name: 🇮🇩 xgV16LIQ
   server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: 7e872fff-2f77-4fa1-813b-70b2f41dd128
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: id1.ubaistore.my.id
-- name: 🇮🇩 tqJ5mNWX
-  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 7e872fff-2f77-4fa1-813b-70b2f41dd128
@@ -27,7 +13,21 @@ proxies:
     path: /vmessws
     headers:
       Host: id1.ubaistore.my.id
-- name: 🇮🇩 kwLdBTXg
+- name: 🇮🇩 r9HYMXNh
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: 7e872fff-2f77-4fa1-813b-70b2f41dd128
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: id1.ubaistore.my.id
+- name: 🇮🇩 VpJVhGl1
   server: cdn.appsflyer.com
   port: 80
   type: vmess
