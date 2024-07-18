@@ -1,20 +1,6 @@
 proxies:
-- name: 🇮🇩 valXxvUZ
+- name: 🇮🇩 fiQL77aG
   server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vpnneo
-    headers:
-      Host: exa.nextvpn.cc
-- name: 🇮🇩 cqSuErKr
-  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 7e872fff-2f77-4fa1-813b-70b2f41dd128
@@ -27,8 +13,8 @@ proxies:
     path: /vmessws
     headers:
       Host: id1.ubaistore.my.id
-- name: 🇮🇩 s36QJshS
-  server: cdn.appsflyer.com
+- name: 🇮🇩 Rsbf3Bx5
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
