@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 fiQL77aG
+- name: 🇮🇩 6COGWQIy
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /vmessws
     headers:
       Host: id1.ubaistore.my.id
-- name: 🇮🇩 Rsbf3Bx5
+- name: 🇮🇩 3PhuJDkl
   server: zendesk1.grab.com
   port: 80
   type: vmess
