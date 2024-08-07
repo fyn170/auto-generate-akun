@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 w5SSBnkq
-  server: zendesk1.grab.com
+- name: 🇸🇬 cvEzvJdb
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,22 +13,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 LUXqHQP2
+- name: 🇸🇬 UDZT7WPx
   server: zendesk1.grab.com
-  port: 80
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-- name: 🇸🇬 kQ6woMyF
-  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,22 +27,22 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 sQiA5GaD
+- name: 🇸🇬 OJw7PBup
   server: cdn.appsflyer.com
   port: 80
   type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  uuid: d2b1dfb1-3751-4b62-b2c2-cc234a15adb7
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /gwdef.sbs/linkws
+    path: /
     headers:
-      Host: mysan2.jaquay22.workers.dev
-- name: 🇸🇬 rC8nawqQ
-  server: cdn.appsflyer.com
+      Host: sg03.thomasina.buzz
+- name: 🇸🇬 k6iMfWwH
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -69,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 otRh2AOc
-  server: zendesk1.grab.com
+- name: 🇸🇬 s7OW4o2R
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -83,8 +69,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 mXRBDNPg
-  server: sogood.linefriends.com
+- name: 🇸🇬 ELJ052xg
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -97,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 DYqaGLhC
-  server: zendesk1.grab.com
+- name: 🇸🇬 o74qaM29
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -112,8 +98,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 elV4URJh
-  server: 104.17.3.81
+- name: 🇸🇬 N82cujAq
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -126,8 +112,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 QjSLyFjx
-  server: 104.17.3.81
+- name: 🇸🇬 EC5WJsbA
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
