@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 fnOeWtzx
+- name: 🇸🇬 MiDV7f5R
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -13,22 +13,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 zEKbuOQO
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 Y7UNReaz
-  server: quiz.vidio.com
+- name: 🇸🇬 1tH8qPeH
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,8 +27,22 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 MCtThtpj
-  server: cdn.appsflyer.com
+- name: 🇸🇬 BecXbW61
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.kgvn.garenanow.com
+- name: 🇸🇬 XplDcGsQ
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -55,7 +55,7 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 ficewGHy
+- name: 🇸🇬 gqxmADZh
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -69,8 +69,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 STdO4weU
-  server: zendesk1.grab.com
+- name: 🇸🇬 wkQdc3wZ
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -83,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 4Cj0G5w2
-  server: quiz.vidio.com
+- name: 🇸🇬 PybZ5lCC
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -98,8 +98,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 Kts4WhDP
-  server: sogood.linefriends.com
+- name: 🇸🇬 25lcSHN5
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -112,8 +112,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 KFBYKq3h
-  server: zendesk1.grab.com
+- name: 🇸🇬 L2SWCqH4
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
