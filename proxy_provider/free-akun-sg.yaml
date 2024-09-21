@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 7r5QxUXN
+- name: 🇸🇬 NZie5f2G
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -13,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 PeqV7JDT
-  server: sogood.linefriends.com
+- name: 🇸🇬 yHjdaaSt
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
@@ -27,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 rASslU0s
-  server: quiz.vidio.com
+- name: 🇸🇬 6FfYVdzg
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,7 +41,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 IyGpiOcY
+- name: 🇸🇬 7PzSRn6k
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 WiSrUbUJ
-  server: 104.17.3.81
+- name: 🇸🇬 7T0kUauX
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -69,8 +69,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 QaKA3Fow
-  server: 104.17.3.81
+- name: 🇸🇬 UB5xfSfB
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -83,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 Pb8eeInz
-  server: sogood.linefriends.com
+- name: 🇸🇬 8ohw9SQI
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -98,8 +98,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 c0XSIcPD
-  server: cdn.appsflyer.com
+- name: 🇸🇬 F9ukZpoj
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -112,8 +112,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 G9GaIAoy
-  server: cdn.appsflyer.com
+- name: 🇸🇬 cscY6qHi
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
