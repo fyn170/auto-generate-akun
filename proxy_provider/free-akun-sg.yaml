@@ -1,20 +1,20 @@
 proxies:
-- name: 🇸🇬 gW5PKCGF
-  server: quiz.vidio.com
+- name: 🇸🇬 RqhkkJth
+  server: 104.17.3.81
   port: 80
   type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: 9238fc7f-ce5a-465f-eff5-66d96df8d6ee
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /sshkit/Ertusg86/635014638c264/
+    path: /@maintenancez/@mtcstores/@jualbelivps
     headers:
-      Host: 15.235.147.186
-- name: 🇸🇬 0pXKVR6t
-  server: quiz.vidio.com
+      Host: 51.79.140.249
+- name: 🇸🇬 GIeHnLSX
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -27,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 4UdhDmMQ
-  server: cdn.appsflyer.com
+- name: 🇸🇬 eFILvZ16
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -41,8 +41,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 GxpkNoZq
-  server: 104.17.3.81
+- name: 🇸🇬 NwEezFcc
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 BKiESxgV
-  server: zendesk1.grab.com
+- name: 🇸🇬 Mh1jKdMw
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -69,8 +69,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 rfZWmzCl
-  server: quiz.vidio.com
+- name: 🇸🇬 u0d6g4af
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -83,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 Kl91rGe3
-  server: quiz.vidio.com
+- name: 🇸🇬 qt9SutUg
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
@@ -98,8 +98,8 @@ proxies:
     path: /
     headers:
       Host: sg2.safepn.net
-- name: 🇸🇬 Y8LoB0eT
-  server: zendesk1.grab.com
+- name: 🇸🇬 KBRFdz8p
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -112,8 +112,22 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 hIeMY7CB
-  server: sogood.linefriends.com
+- name: 🇸🇬 aPT2a0Ba
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+    headers:
+      Host: 15.235.147.186
+- name: 🇸🇬 JlO8Fhtp
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
