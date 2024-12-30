@@ -1,20 +1,6 @@
 proxies:
-- name: 🇸🇬 1tMRKjN1
-  server: zendesk1.grab.com
-  port: 80
-  type: vmess
-  uuid: a72bd7a7-732d-46c1-8274-bf16bca30e78
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg1-v.sshmax.xyz
-- name: 🇸🇬 vt3AasfH
-  server: 104.17.3.81
+- name: 🇸🇬 0mIaubW8
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -27,7 +13,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 CwshpZFq
+- name: 🇸🇬 YSczuArh
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -41,7 +27,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: zoom.us
-- name: 🇸🇬 pfjFCX7c
+- name: 🇸🇬 lI2XRcoe
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -55,8 +41,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: 15.235.147.186
-- name: 🇸🇬 yKhBS47V
-  server: 104.17.3.81
+- name: 🇸🇬 M8fe8w0b
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -69,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 XoV0iKlb
-  server: cdn.appsflyer.com
+- name: 🇸🇬 OFMFB9v6
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -83,8 +69,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 H6qemei6
-  server: 104.17.3.81
+- name: 🇸🇬 1i8tH7CS
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -97,8 +83,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 vLpANcgr
-  server: 104.17.3.81
+- name: 🇸🇬 8maeKUNN
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -111,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 lXAqVQAc
-  server: 104.17.3.81
+- name: 🇸🇬 jXX7ivut
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
