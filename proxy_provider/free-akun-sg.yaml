@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 fp4EPm42
-  server: zendesk1.grab.com
+- name: 🇸🇬 ALRjrgrz
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: a0cfd598-f09f-440b-9204-77d6ae923dc5
@@ -13,21 +13,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.45.193
-- name: 🇸🇬 RWYhYESp
-  server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 15.235.202.196
-- name: 🇸🇬 NfYBUdsR
+- name: 🇸🇬 CK9VqG82
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -41,7 +27,21 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: 15.235.147.186
-- name: 🇸🇬 G8PaytH6
+- name: 🇸🇬 9rfpHJt9
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 15.235.202.196
+- name: 🇸🇬 beJ8nool
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -55,7 +55,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 ES81KIHS
+- name: 🇸🇬 srqDds51
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -69,8 +69,8 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: sg-lb.vhax.net
-- name: 🇸🇬 QEzmwWIx
-  server: cdn.appsflyer.com
+- name: 🇸🇬 1wXFUXGO
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -83,8 +83,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 PeDa66Um
-  server: sogood.linefriends.com
+- name: 🇸🇬 30rj90HL
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -97,8 +97,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 htkNa7Ul
-  server: zendesk1.grab.com
+- name: 🇸🇬 QVHD77K5
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -111,8 +111,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 6iPJy5ub
-  server: sogood.linefriends.com
+- name: 🇸🇬 EeWc2C4X
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
