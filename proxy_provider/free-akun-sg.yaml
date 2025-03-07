@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 KExcjMMV
-  server: sogood.linefriends.com
+- name: 🇸🇬 brvHX3DQ
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,7 +13,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 fBaNnWlP
+- name: 🇸🇬 a8wKOxKB
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -27,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 S6eluA2g
+- name: 🇸🇬 nu9Lp5qJ
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -41,7 +41,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 o5SDgsS9
+- name: 🇸🇬 XzXxbnBf
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 EsUVANyK
-  server: quiz.vidio.com
+- name: 🇸🇬 XYUhElFq
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
