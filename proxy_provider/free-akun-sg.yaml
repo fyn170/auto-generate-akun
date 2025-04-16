@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 LeWSis2s
+- name: 🇸🇬 ZfADq2A7
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -13,8 +13,8 @@ proxies:
     path: /fastssh/ccvcxds/6252624d4fda3/
     headers:
       Host: sg1.31vpn.com
-- name: 🇸🇬 uvHDIOO4
-  server: quiz.vidio.com
+- name: 🇸🇬 9WD4Q9zk
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -27,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 hkghEKsZ
+- name: 🇸🇬 xgJzXtUW
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -41,7 +41,7 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 IcXF67ds
+- name: 🇸🇬 I8USINks
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -55,8 +55,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 MFWF78Yz
-  server: zendesk1.grab.com
+- name: 🇸🇬 Y4A2h8wg
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
