@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 BAF4BoLY
+- name: 🇸🇬 LIcSdwx8
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 SRgYjlvF
+- name: 🇸🇬 0oicIU2C
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -27,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 jIjEYVxv
-  server: cdn.appsflyer.com
+- name: 🇸🇬 7uaQxj0Y
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -41,7 +41,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 3BihdErP
+- name: 🇸🇬 EEYVjHIO
   server: sogood.linefriends.com
   port: 80
   type: vmess
