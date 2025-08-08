@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 l7VI8R8o
+- name: 🇮🇩 c09EQbHr
   server: quiz.vidio.com
   port: 80
   type: vmess
