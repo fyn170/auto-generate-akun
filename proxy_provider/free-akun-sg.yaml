@@ -1,20 +1,6 @@
 proxies:
-- name: 🇸🇬 WfWk8Eeg
+- name: 🇸🇬 8u3pNThU
   server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /nkpvpn.site
-    headers:
-      Host: frontier-i18n.tiktokv.com
-- name: 🇸🇬 Wy5ay9LV
-  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -27,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 R1YIbpmq
-  server: sogood.linefriends.com
+- name: 🇸🇬 HzvpGsQZ
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -41,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 vzednUH5
-  server: 104.17.3.81
+- name: 🇸🇬 shCMMYYf
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -55,8 +41,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 Airt8DtF
-  server: cdn.appsflyer.com
+- name: 🇸🇬 YYVrhgGf
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
