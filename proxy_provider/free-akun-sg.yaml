@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 iQEgIa54
-  server: quiz.vidio.com
+- name: 🇸🇬 FuZJBW3b
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 EnCtE2Yy
-  server: cdn.appsflyer.com
+- name: 🇸🇬 LoP1oc4A
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9
@@ -27,7 +27,7 @@ proxies:
     path: /vmess
     headers:
       Host: discord.com
-- name: 🇸🇬 9y5xEQDi
+- name: 🇸🇬 pgOBMYjL
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -41,8 +41,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 7C1oM10e
-  server: zendesk1.grab.com
+- name: 🇸🇬 I5cdRQm9
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -55,8 +55,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 sbhNaRLk
-  server: quiz.vidio.com
+- name: 🇸🇬 zZoPIvsg
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
