@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 4WjNTZzw
-  server: cdn.appsflyer.com
+- name: 🇸🇬 T8JohYjy
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -13,7 +13,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
     headers:
       Host: 15.235.147.186
-- name: 🇸🇬 xTRmz51l
+- name: 🇸🇬 AbvpDeg1
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -27,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 CXiD70ZB
-  server: zendesk1.grab.com
+- name: 🇸🇬 3UThJNBc
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9
@@ -41,8 +41,8 @@ proxies:
     path: /vmess
     headers:
       Host: discord.com
-- name: 🇸🇬 gEt9ddXu
-  server: zendesk1.grab.com
+- name: 🇸🇬 TKMFPO39
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 KUABF37S
-  server: cdn.appsflyer.com
+- name: 🇸🇬 e2KlPHO8
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -69,8 +69,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 XPVDrqW3
-  server: zendesk1.grab.com
+- name: 🇸🇬 D1uA8raN
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
