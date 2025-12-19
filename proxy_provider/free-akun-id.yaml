@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 lY8MbOgA
+- name: 🇮🇩 mAMKa3T6
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -11,8 +11,22 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: 🇮🇩 UhF3ehqF
+- name: 🇮🇩 tM5RppJn
   server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 103.157.27.148
+- name: 🇮🇩 bvE3REBe
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
