@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 UavXlbSO
+- name: 🇸🇬 diXf5lNT
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 aclanCYy
+- name: 🇸🇬 6SxUIft2
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -27,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 jrT5YAjM
-  server: 104.17.3.81
+- name: 🇸🇬 FnKeFsOB
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -41,8 +41,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 1asPUflX
-  server: sogood.linefriends.com
+- name: 🇸🇬 OJYBQmOi
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
