@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 diXf5lNT
+- name: 🇸🇬 FTmHisnB
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 6SxUIft2
+- name: 🇸🇬 vEgxU3oK
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -27,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 FnKeFsOB
-  server: zendesk1.grab.com
+- name: 🇸🇬 KRu4kVRE
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -41,7 +41,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 OJYBQmOi
+- name: 🇸🇬 aqpTFATU
   server: 104.17.3.81
   port: 80
   type: vmess
