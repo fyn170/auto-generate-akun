@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 NA7Pq713
+- name: 🇸🇬 uOZFPLSf
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -13,8 +13,8 @@ proxies:
     path: /fastssh/bddasdf/624e71635ed8e/
     headers:
       Host: sg1.31vpn.com
-- name: 🇸🇬 ECRCLiPY
-  server: zendesk1.grab.com
+- name: 🇸🇬 rPYLMqkl
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -27,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 jUt0h5JR
+- name: 🇸🇬 HVWrUgHk
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -41,7 +41,7 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 keoW39ks
+- name: 🇸🇬 VmPDp0M6
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -55,8 +55,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 XEmTZ02e
-  server: 104.17.3.81
+- name: 🇸🇬 FPJ8X9bZ
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
