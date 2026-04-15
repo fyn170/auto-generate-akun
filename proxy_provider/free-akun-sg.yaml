@@ -1,20 +1,6 @@
 proxies:
-- name: 🇸🇬 t36d8eDs
+- name: 🇸🇬 Vjfq2jFU
   server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /fastssh/ppdt/624dde181c76e/
-    headers:
-      Host: sg1.31vpn.com
-- name: 🇸🇬 L4C4hIME
-  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
@@ -27,22 +13,8 @@ proxies:
     path: /fastssh/ccvcxds/6252624d4fda3/
     headers:
       Host: sg1.31vpn.com
-- name: 🇸🇬 qIHbQzTA
-  server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /fastssh/bddasdf/624e71635ed8e/
-    headers:
-      Host: sg1.31vpn.com
-- name: 🇸🇬 y9BpLOSb
-  server: cdn.appsflyer.com
+- name: 🇸🇬 OoVcUMcO
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -55,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 f3xBUhy2
+- name: 🇸🇬 angmm9Pd
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -69,8 +41,8 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 LOhr822R
-  server: sogood.linefriends.com
+- name: 🇸🇬 6Akdvzcw
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -83,8 +55,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 QyB4sh2h
-  server: 104.17.3.81
+- name: 🇸🇬 K1g2YcaJ
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
