@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 1FKWBaqM
-  server: 104.17.3.81
+- name: 🇸🇬 WJkXTesv
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 326e1c01-dfd7-4265-a086-be64e17c63e6
@@ -13,8 +13,8 @@ proxies:
     path: /giare
     headers:
       Host: Livestream2.tv360.vn
-- name: 🇸🇬 rv72lmMr
-  server: sogood.linefriends.com
+- name: 🇸🇬 5fUtS0Nt
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
@@ -27,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 XzCDSfev
+- name: 🇸🇬 gBy3epjx
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -41,7 +41,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 Bvqs2xzP
+- name: 🇸🇬 8rrzX8QE
   server: zendesk1.grab.com
   port: 80
   type: vmess
