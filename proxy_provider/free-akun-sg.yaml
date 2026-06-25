@@ -1,20 +1,6 @@
 proxies:
-- name: 🇸🇬 X1mKRDqz
+- name: 🇸🇬 JlnEA4jb
   server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vpngiare.net
-    headers:
-      Host: vpngiare.akamaized.net
-- name: 🇸🇬 BM7MxQ3r
-  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -27,8 +13,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 pWkHferH
-  server: cdn.appsflyer.com
+- name: 🇸🇬 8h9VJhTi
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -41,8 +27,22 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 FSOX3QYO
-  server: 104.17.3.81
+- name: 🇸🇬 FfBeuOo3
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vpngiare.net
+    headers:
+      Host: vpngiare.akamaized.net
+- name: 🇸🇬 GVhfQSjk
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
