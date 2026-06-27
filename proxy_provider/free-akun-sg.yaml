@@ -1,5 +1,75 @@
 proxies:
-- name: 🇸🇬 1TL2iWn3
+- name: 🇸🇬 zh8b2Od4
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 139.99.61.154
+- name: 🇸🇬 W0441GAC
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 15.235.202.196
+- name: 🇸🇬 9Pjm6SPC
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vpngiare.net
+    headers:
+      Host: vpngiare.akamaized.net
+- name: 🇸🇬 8bYbFsQe
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: aaef05da-e8ce-4a7c-9dc8-5db3aa5fa309
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: viettel.akamaized.net
+- name: 🇸🇬 TrJF0yAO
+  server: sogood.linefriends.com
+  port: 80
+  type: vmess
+  uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /kvw0870h/
+    headers:
+      Host: 4gvpn.akamaized.net
+- name: 🇸🇬 Ubtx8fbC
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -13,77 +83,7 @@ proxies:
     path: /cloudfast
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 wsfpOM3L
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /kvw0870h/
-    headers:
-      Host: 4gvpn.akamaized.net
-- name: 🇸🇬 vFrHNPyE
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: aaef05da-e8ce-4a7c-9dc8-5db3aa5fa309
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: viettel.akamaized.net
-- name: 🇸🇬 Cy4B9UDP
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 139.99.61.154
-- name: 🇸🇬 YzSUo5Y5
-  server: cdn.appsflyer.com
-  port: 80
-  type: vmess
-  uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 15.235.202.196
-- name: 🇸🇬 avKj7Pdw
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vpngiare.net
-    headers:
-      Host: vpngiare.akamaized.net
-- name: 🇸🇬 QwvSjIlq
+- name: 🇸🇬 pL1NbwxD
   server: sogood.linefriends.com
   port: 80
   type: vmess
