@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 h4lz66o7
+- name: 🇸🇬 Rije9n5b
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -13,8 +13,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 cQhh97gj
-  server: cdn.appsflyer.com
+- name: 🇸🇬 yHzSY87y
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -27,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 e6CljEK7
-  server: zendesk1.grab.com
+- name: 🇸🇬 wFDaNS5f
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
@@ -41,8 +41,8 @@ proxies:
     path: /vpngiare.net
     headers:
       Host: vpngiare.akamaized.net
-- name: 🇸🇬 3R4nJesd
-  server: cdn.appsflyer.com
+- name: 🇸🇬 oh2B5czZ
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: aaef05da-e8ce-4a7c-9dc8-5db3aa5fa309
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: viettel.akamaized.net
-- name: 🇸🇬 sULVVnfg
-  server: quiz.vidio.com
+- name: 🇸🇬 5NjR2FLj
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -69,8 +69,8 @@ proxies:
     path: /kvw0870h/
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 WWE0OSFy
-  server: cdn.appsflyer.com
+- name: 🇸🇬 6sjq4Rqv
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -83,8 +83,8 @@ proxies:
     path: /cloudfast
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 kYrggd61
-  server: quiz.vidio.com
+- name: 🇸🇬 JsYszbVj
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
@@ -97,7 +97,7 @@ proxies:
     path: /
     headers:
       Host: khiemdz.akamaized.net
-- name: 🇸🇬 J9s46gcj
+- name: 🇸🇬 CHWEYA0O
   server: zendesk1.grab.com
   port: 80
   type: vmess
