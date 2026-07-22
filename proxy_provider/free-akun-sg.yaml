@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 foNsDjTu
-  server: 104.17.3.81
+- name: 🇸🇬 auYlyMpz
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -13,7 +13,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 4wFZo70W
+- name: 🇸🇬 6OpgCh89
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -27,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 H9XnoRU3
-  server: 104.17.3.81
+- name: 🇸🇬 37CWC4oH
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
@@ -41,8 +41,8 @@ proxies:
     path: /vpngiare.net
     headers:
       Host: vpngiare.akamaized.net
-- name: 🇸🇬 KywcKrHI
-  server: 104.17.3.81
+- name: 🇸🇬 9Fghlk7i
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: aaef05da-e8ce-4a7c-9dc8-5db3aa5fa309
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: viettel.akamaized.net
-- name: 🇸🇬 A92fZAWG
-  server: zendesk1.grab.com
+- name: 🇸🇬 2UIpkhiw
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -69,7 +69,7 @@ proxies:
     path: /kvw0870h/
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 BSelzsYM
+- name: 🇸🇬 sNpBR6mg
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -83,8 +83,8 @@ proxies:
     path: /cloudfast
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 AhSslC4e
-  server: cdn.appsflyer.com
+- name: 🇸🇬 3f0XhTUb
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
@@ -97,7 +97,7 @@ proxies:
     path: /
     headers:
       Host: khiemdz.akamaized.net
-- name: 🇸🇬 TsndyVh2
+- name: 🇸🇬 I9TuzlBM
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -111,8 +111,8 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 GKiskMa0
-  server: 104.17.3.81
+- name: 🇸🇬 HxsnjHWt
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
