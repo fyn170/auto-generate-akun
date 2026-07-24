@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 1qZngoh6
-  server: sogood.linefriends.com
+- name: 🇸🇬 abLzJZqS
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -13,8 +13,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 RPhugRK8
-  server: 104.17.3.81
+- name: 🇸🇬 qTERscAu
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -27,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 p6qxU9CL
-  server: zendesk1.grab.com
+- name: 🇸🇬 OqtO6Sqf
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
@@ -41,8 +41,8 @@ proxies:
     path: /vpngiare.net
     headers:
       Host: vpngiare.akamaized.net
-- name: 🇸🇬 zGZXiWAO
-  server: sogood.linefriends.com
+- name: 🇸🇬 j5VK42PG
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: aaef05da-e8ce-4a7c-9dc8-5db3aa5fa309
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: viettel.akamaized.net
-- name: 🇸🇬 8nrPRwrt
-  server: 104.17.3.81
+- name: 🇸🇬 OHaeM6XM
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -69,8 +69,8 @@ proxies:
     path: /kvw0870h/
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 R2Uif3m0
-  server: sogood.linefriends.com
+- name: 🇸🇬 7ZLqbMoo
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -83,8 +83,8 @@ proxies:
     path: /cloudfast
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 oH3XLMe6
-  server: zendesk1.grab.com
+- name: 🇸🇬 UvidNtwz
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
@@ -97,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: khiemdz.akamaized.net
-- name: 🇸🇬 EtxjAeN8
-  server: quiz.vidio.com
+- name: 🇸🇬 xarJDgvu
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
@@ -111,8 +111,8 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 3fHmfAz7
-  server: sogood.linefriends.com
+- name: 🇸🇬 a7A73YnV
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
