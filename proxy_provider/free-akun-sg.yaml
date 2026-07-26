@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 TcZp1HVZ
-  server: zendesk1.grab.com
+- name: 🇸🇬 gsOMMb8z
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
@@ -13,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: vpngiare.akamaized.net
-- name: 🇸🇬 g096SyWQ
-  server: 104.17.3.81
+- name: 🇸🇬 5q2sGgHf
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -27,7 +27,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 7K5EJ9It
+- name: 🇸🇬 7zvoDjvo
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -41,8 +41,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 JkFj1o7D
-  server: cdn.appsflyer.com
+- name: 🇸🇬 el4msOtR
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: aaef05da-e8ce-4a7c-9dc8-5db3aa5fa309
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: viettel.akamaized.net
-- name: 🇸🇬 ypjpPVKQ
-  server: sogood.linefriends.com
+- name: 🇸🇬 h3Kjg07J
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -69,8 +69,8 @@ proxies:
     path: /kvw0870h/
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 EqOiOvxa
-  server: zendesk1.grab.com
+- name: 🇸🇬 Waqdqadm
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -83,8 +83,8 @@ proxies:
     path: /cloudfast
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 wgFSTMjO
-  server: 104.17.3.81
+- name: 🇸🇬 bbgwRFVm
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
@@ -97,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: khiemdz.akamaized.net
-- name: 🇸🇬 QWcY6Loa
-  server: zendesk1.grab.com
+- name: 🇸🇬 J8xdR5Ji
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
@@ -111,7 +111,7 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 9xJD9cuJ
+- name: 🇸🇬 0XtfEEiT
   server: 104.17.3.81
   port: 80
   type: vmess
