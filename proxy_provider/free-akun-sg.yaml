@@ -1,34 +1,6 @@
 proxies:
-- name: 🇸🇬 4lOAsi2T
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: afa18cca-fa20-4506-c778-41e1dad3c315
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: YouTube-aweikeji
-- name: 🇸🇬 FcVw5KGM
-  server: quiz.vidio.com
-  port: 80
-  type: vmess
-  uuid: afa18cca-fa20-4506-c778-41e1dad3c315
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gw.alicdn.com
-- name: 🇸🇬 2pAVN3Qi
-  server: 104.17.3.81
+- name: 🇸🇬 ofAx8f8A
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
@@ -41,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: vpngiare.akamaized.net
-- name: 🇸🇬 87zD0xfV
-  server: quiz.vidio.com
+- name: 🇸🇬 xhAnJA9d
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -55,8 +27,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 FLmDUtCT
-  server: sogood.linefriends.com
+- name: 🇸🇬 mceOJhta
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -69,7 +41,7 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 6jaJng8G
+- name: 🇸🇬 qezhEmg9
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -83,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: viettel.akamaized.net
-- name: 🇸🇬 4qCFFlLO
-  server: quiz.vidio.com
+- name: 🇸🇬 DaRjiN16
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -97,7 +69,7 @@ proxies:
     path: /kvw0870h/
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 qpOlJhK4
+- name: 🇸🇬 QprwSig2
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -111,8 +83,8 @@ proxies:
     path: /cloudfast
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 LDpUtfey
-  server: sogood.linefriends.com
+- name: 🇸🇬 nxdxjRLN
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
@@ -125,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: khiemdz.akamaized.net
-- name: 🇸🇬 08IQwWIo
-  server: 104.17.3.81
+- name: 🇸🇬 gU3ySayg
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
@@ -139,7 +111,7 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 BFDq7EvZ
+- name: 🇸🇬 4yCJa0tc
   server: quiz.vidio.com
   port: 80
   type: vmess
