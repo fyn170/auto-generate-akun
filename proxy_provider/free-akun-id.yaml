@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 BrDfkzku
+- name: 🇮🇩 2uySHDcl
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     path: /
     headers:
       Host: biznet-s.nextvpn.cc
-- name: 🇮🇩 VfeuFhNL
+- name: 🇮🇩 tkEQ3ZsZ
   server: zendesk1.grab.com
   port: 80
   type: vmess
