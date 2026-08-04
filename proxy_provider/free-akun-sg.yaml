@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 ofAx8f8A
+- name: 🇸🇬 OZs2oymX
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -13,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: vpngiare.akamaized.net
-- name: 🇸🇬 xhAnJA9d
-  server: cdn.appsflyer.com
+- name: 🇸🇬 KbSklZcj
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -27,7 +27,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 mceOJhta
+- name: 🇸🇬 MqvHXEmJ
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -41,8 +41,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 qezhEmg9
-  server: cdn.appsflyer.com
+- name: 🇸🇬 ok78tc4W
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: aaef05da-e8ce-4a7c-9dc8-5db3aa5fa309
@@ -55,8 +55,8 @@ proxies:
     path: /
     headers:
       Host: viettel.akamaized.net
-- name: 🇸🇬 DaRjiN16
-  server: 104.17.3.81
+- name: 🇸🇬 1JUNvg9D
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -69,8 +69,8 @@ proxies:
     path: /kvw0870h/
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 QprwSig2
-  server: sogood.linefriends.com
+- name: 🇸🇬 OZZwEC1C
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -83,8 +83,8 @@ proxies:
     path: /cloudfast
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 nxdxjRLN
-  server: 104.17.3.81
+- name: 🇸🇬 7IAX9Omn
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
@@ -97,7 +97,7 @@ proxies:
     path: /
     headers:
       Host: khiemdz.akamaized.net
-- name: 🇸🇬 gU3ySayg
+- name: 🇸🇬 eAaTMhhf
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -111,8 +111,8 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 4yCJa0tc
-  server: quiz.vidio.com
+- name: 🇸🇬 3REas4Bc
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
