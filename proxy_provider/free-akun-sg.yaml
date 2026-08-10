@@ -1,19 +1,5 @@
 proxies:
-- name: 🇸🇬 EG9Z4WPE
-  server: zendesk1.grab.com
-  port: 80
-  type: vmess
-  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8.214.33.158
-- name: 🇸🇬 fwKoi1Pv
+- name: 🇸🇬 k8ze0eHO
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -27,8 +13,8 @@ proxies:
     path: /
     headers:
       Host: vpngiare.akamaized.net
-- name: 🇸🇬 SML3YekZ
-  server: sogood.linefriends.com
+- name: 🇸🇬 okGxTlY2
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -41,8 +27,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 fNRmjPZB
-  server: sogood.linefriends.com
+- name: 🇸🇬 fAGTBzlF
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -55,8 +41,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 E86FFU4E
-  server: quiz.vidio.com
+- name: 🇸🇬 36Dx52hl
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: aaef05da-e8ce-4a7c-9dc8-5db3aa5fa309
@@ -69,7 +55,7 @@ proxies:
     path: /
     headers:
       Host: viettel.akamaized.net
-- name: 🇸🇬 JNWDZ07t
+- name: 🇸🇬 Jd5FpDXm
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -83,7 +69,7 @@ proxies:
     path: /kvw0870h/
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 YSrFKmbB
+- name: 🇸🇬 Z7fx7N5l
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -97,8 +83,8 @@ proxies:
     path: /cloudfast
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 jxdUGkqF
-  server: 104.17.3.81
+- name: 🇸🇬 LBj4CTel
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
@@ -111,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: khiemdz.akamaized.net
-- name: 🇸🇬 A4oVMcCz
-  server: sogood.linefriends.com
+- name: 🇸🇬 uBp6hI3g
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
@@ -125,8 +111,8 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 fbKdtDYR
-  server: zendesk1.grab.com
+- name: 🇸🇬 dypRb0gU
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
