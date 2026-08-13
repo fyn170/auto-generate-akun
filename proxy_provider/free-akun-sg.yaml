@@ -1,6 +1,20 @@
 proxies:
-- name: 🇸🇬 V8xkefQe
+- name: 🇸🇬 69JvSEei
   server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /nkpvpn.site
+    headers:
+      Host: frontier-i18n.tiktokv.com
+- name: 🇸🇬 EhpMTDib
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
@@ -13,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: 8.214.33.158
-- name: 🇸🇬 eJyR0g98
-  server: zendesk1.grab.com
+- name: 🇸🇬 xpen8Ep4
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
@@ -27,8 +41,8 @@ proxies:
     path: /
     headers:
       Host: vpngiare.akamaized.net
-- name: 🇸🇬 38KIJ8I5
-  server: cdn.appsflyer.com
+- name: 🇸🇬 ltLL8SWq
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -41,8 +55,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 iZ5kWZSg
-  server: quiz.vidio.com
+- name: 🇸🇬 Ml4UAmMH
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -55,8 +69,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 T8BAYtEt
-  server: cdn.appsflyer.com
+- name: 🇸🇬 6KA3oJu8
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: aaef05da-e8ce-4a7c-9dc8-5db3aa5fa309
@@ -69,7 +83,7 @@ proxies:
     path: /
     headers:
       Host: viettel.akamaized.net
-- name: 🇸🇬 4hHI5KWQ
+- name: 🇸🇬 HnricZmE
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -83,8 +97,8 @@ proxies:
     path: /kvw0870h/
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 bKb8H9hx
-  server: 104.17.3.81
+- name: 🇸🇬 Tt7FKhD6
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
@@ -97,7 +111,7 @@ proxies:
     path: /cloudfast
     headers:
       Host: 4gvpn.akamaized.net
-- name: 🇸🇬 KJ1dAR47
+- name: 🇸🇬 FQeOPsQr
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -111,7 +125,7 @@ proxies:
     path: /
     headers:
       Host: khiemdz.akamaized.net
-- name: 🇸🇬 GvrhXeKt
+- name: 🇸🇬 1kcYHhdV
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -125,8 +139,8 @@ proxies:
     path: /
     headers:
       Host: dl.kgvn.garenanow.com
-- name: 🇸🇬 Eegbtx4a
-  server: sogood.linefriends.com
+- name: 🇸🇬 UGeQOCHY
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
