@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 B49hadqP
+- name: 🇮🇩 T3RLXeRt
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -10,10 +10,10 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /vpnneo
     headers:
       Host: biznet-s.nextvpn.cc
-- name: 🇮🇩 xHFWyW54
+- name: 🇮🇩 Bq7Bpy4Q
   server: zendesk1.grab.com
   port: 80
   type: vmess
