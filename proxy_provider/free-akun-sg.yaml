@@ -1,19 +1,5 @@
 proxies:
-- name: 🇸🇬 tUZbedoA
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 139.99.61.53
-- name: 🇸🇬 Gp92I2Sv
+- name: 🇸🇬 jkxQAf2z
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -27,8 +13,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 4WVwvIMH
-  server: quiz.vidio.com
+- name: 🇸🇬 lIG31kNC
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -41,3 +27,17 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
+- name: 🇸🇬 dkdUzEF4
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 139.99.61.53
