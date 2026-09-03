@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 uHUa7Qx0
-  server: zendesk1.grab.com
+- name: 🇸🇬 gyTkdw3M
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -13,7 +13,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 vi7tNUFI
+- name: 🇸🇬 K1CtdwHI
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -27,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 H1UFEX23
+- name: 🇸🇬 T4NdPXFp
   server: zendesk1.grab.com
   port: 80
   type: vmess
