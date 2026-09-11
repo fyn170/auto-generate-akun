@@ -1,5 +1,33 @@
 proxies:
-- name: 🇸🇬 Jd5MgnJ2
+- name: 🇸🇬 fCmZmDiM
+  server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 139.99.61.154
+- name: 🇸🇬 pftQ5kg7
+  server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 15.235.202.196
+- name: 🇸🇬 0DigVeqf
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -13,31 +41,3 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 IYrKIX4Q
-  server: cdn.appsflyer.com
-  port: 80
-  type: vmess
-  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 139.99.61.154
-- name: 🇸🇬 lCLhQyXR
-  server: cdn.appsflyer.com
-  port: 80
-  type: vmess
-  uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 15.235.202.196
