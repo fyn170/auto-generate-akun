@@ -1,6 +1,6 @@
 proxies:
-- name: 🇸🇬 WUwT5yWp
-  server: cdn.appsflyer.com
+- name: 🇸🇬 ZEKwjymJ
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -13,8 +13,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 vv7pQeHN
-  server: zendesk1.grab.com
+- name: 🇸🇬 h8YZGvp7
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -27,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 tjUz6kIC
+- name: 🇸🇬 9aEQEq87
   server: sogood.linefriends.com
   port: 80
   type: vmess
