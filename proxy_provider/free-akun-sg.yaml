@@ -1,5 +1,33 @@
 proxies:
-- name: 🇸🇬 LrV6YP2X
+- name: 🇸🇬 ksMByyty
+  server: sogood.linefriends.com
+  port: 80
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 139.99.61.154
+- name: 🇸🇬 arp4S7sN
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 15.235.202.196
+- name: 🇸🇬 JFeZEV1i
   server: zendesk1.grab.com
   port: 80
   type: vmess
@@ -13,31 +41,3 @@ proxies:
     path: /
     headers:
       Host: 139.99.61.53
-- name: 🇸🇬 Vrsk3rBS
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 139.99.61.154
-- name: 🇸🇬 gEcp5dU6
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 15.235.202.196
