@@ -1,5 +1,19 @@
 proxies:
-- name: 🇸🇬 rWT629KR
+- name: 🇸🇬 cNHQ8mQr
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 139.99.61.53
+- name: 🇸🇬 qJ0S6yUb
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -13,8 +27,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 UvQBCKcN
-  server: cdn.appsflyer.com
+- name: 🇸🇬 G23g3EX3
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -27,17 +41,3 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 hA3dLaKN
-  server: cdn.appsflyer.com
-  port: 80
-  type: vmess
-  uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 139.99.61.53
