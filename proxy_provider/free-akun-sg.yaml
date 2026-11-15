@@ -1,20 +1,90 @@
 proxies:
-- name: 🇸🇬 pH8vZ6Nv
-  server: quiz.vidio.com
+- name: 🇸🇬 frHrCbNu
+  server: sogood.linefriends.com
   port: 80
   type: vmess
-  uuid: 0bf0cc63-cc4d-4a6f-8770-a7fa5a0d1c55
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /sshocean
+    path: /sshkit/1736960111/635cb6dd4206c/
     headers:
-      Host: sg2.v2rayserv.com
-- name: 🇸🇬 3ZrC4KV9
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 4f4VFJqn
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 gnw061IQ
+  server: sogood.linefriends.com
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 s9HKMG4F
   server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 3FG52n8D
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 IBSRE3Bm
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 cr1ks8dm
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 0bf0cc63-cc4d-4a6f-8770-a7fa5a0d1c55
@@ -27,8 +97,8 @@ proxies:
     path: /
     headers:
       Host: sg2.v2rayserv.com
-- name: 🇸🇬 tQMKiKSI
-  server: cdn.appsflyer.com
+- name: 🇸🇬 2uKp9zON
+  server: zendesk1.grab.com
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -41,8 +111,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 0XVASK92
-  server: zendesk1.grab.com
+- name: 🇸🇬 qAEvTiOe
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -55,8 +125,8 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 LTmzc6m7
-  server: sogood.linefriends.com
+- name: 🇸🇬 wBIJvmq9
+  server: cdn.appsflyer.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
