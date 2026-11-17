@@ -1,89 +1,19 @@
 proxies:
-- name: 🇸🇬 frHrCbNu
-  server: sogood.linefriends.com
+- name: 🇸🇬 BKKST7OC
+  server: quiz.vidio.com
   port: 80
   type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /sshkit/1736960111/635cb6dd4206c/
+    path: /sshkit/Ertusg86/635014638c264/
     headers:
-      Host: sg3-v2ray.sshkit.org
-- name: 🇸🇬 4f4VFJqn
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sshkit/1736960111/635cb6dd4206c/
-    headers:
-      Host: sg3-v2ray.sshkit.org
-- name: 🇸🇬 gnw061IQ
-  server: sogood.linefriends.com
-  port: 80
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sshkit/1736960111/635cb6dd4206c/
-    headers:
-      Host: sg3-v2ray.sshkit.org
-- name: 🇸🇬 s9HKMG4F
-  server: zendesk1.grab.com
-  port: 80
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sshkit/1736960111/635cb6dd4206c/
-    headers:
-      Host: sg3-v2ray.sshkit.org
-- name: 🇸🇬 3FG52n8D
-  server: cdn.appsflyer.com
-  port: 80
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sshkit/1736960111/635cb6dd4206c/
-    headers:
-      Host: sg3-v2ray.sshkit.org
-- name: 🇸🇬 IBSRE3Bm
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sshkit/1736960111/635cb6dd4206c/
-    headers:
-      Host: sg3-v2ray.sshkit.org
-- name: 🇸🇬 cr1ks8dm
+      Host: 15.235.147.186
+- name: 🇸🇬 YwuCKDKc
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -97,8 +27,8 @@ proxies:
     path: /
     headers:
       Host: sg2.v2rayserv.com
-- name: 🇸🇬 2uKp9zON
-  server: zendesk1.grab.com
+- name: 🇸🇬 fLrxJcVh
+  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
@@ -111,7 +41,7 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 qAEvTiOe
+- name: 🇸🇬 uNpFC88n
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -125,8 +55,92 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
-- name: 🇸🇬 wBIJvmq9
+- name: 🇸🇬 x7Zjawdi
   server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 KiAT2dV4
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 MBmIlyer
+  server: sogood.linefriends.com
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 Zmcfwr5i
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 d31VUd4m
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 5Nyw9Vxg
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇸🇬 aksNbMsX
+  server: sogood.linefriends.com
   port: 80
   type: vmess
   uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
