@@ -1,20 +1,6 @@
 proxies:
-- name: 🇸🇬 YeJ4dHOF
+- name: 🇸🇬 h4A247xX
   server: zendesk1.grab.com
-  port: 80
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sshkit/Ertusg86/635014638c264/
-    headers:
-      Host: 15.235.147.186
-- name: 🇸🇬 KYHHeJ39
-  server: 104.17.3.81
   port: 80
   type: vmess
   uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
@@ -27,11 +13,25 @@ proxies:
     path: /?ed=2048
     headers:
       Host: w1.800876.xyz
-- name: 🇸🇬 Ind0RTLm
+- name: 🇸🇬 FNLQrLWe
+  server: sogood.linefriends.com
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+    headers:
+      Host: 15.235.147.186
+- name: 🇸🇬 2qxCG7JU
   server: zendesk1.grab.com
   port: 80
   type: vmess
-  uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
   alterId: 0
   cipher: auto
   tls: false
@@ -40,8 +40,22 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 139.99.61.53
-- name: 🇸🇬 CrZPheGj
+      Host: 15.235.147.186
+- name: 🇸🇬 DLinhzmn
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: w1.800876.xyz
+- name: 🇸🇬 FUd7dst2
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -55,8 +69,8 @@ proxies:
     path: /vmess
     headers:
       Host: 139.99.61.154
-- name: 🇸🇬 b10koUXj
-  server: cdn.appsflyer.com
+- name: 🇸🇬 7mp4mSGA
+  server: quiz.vidio.com
   port: 80
   type: vmess
   uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527
@@ -69,3 +83,17 @@ proxies:
     path: /
     headers:
       Host: 15.235.202.196
+- name: 🇸🇬 3zSzu9lM
+  server: zendesk1.grab.com
+  port: 80
+  type: vmess
+  uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 139.99.61.53
